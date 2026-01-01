@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claims Denial Analysis Report</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 7in;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .page-break {
+            page-break-after: always;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 22px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            page-break-after: avoid;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            page-break-inside: avoid;
+        }
+
+        .metric-card.secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .metric-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .chart-container {
+            margin: 25px 0;
+            text-align: center;
+            page-break-inside: avoid;
+        }
+
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .section-divider {
+            border-top: 2px solid #e0e0e0;
+            margin: 40px 0;
+            page-break-before: always;
+        }
+
+        .note-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .note-box strong {
+            color: #856404;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Claims Denial Analysis Report</h1>
+
+    <h2>Executive Overview</h2>
+
+    <div class="metric-grid">
+        <div class="metric-card">
+            <div class="metric-label">Total Denials Analyzed</div>
+            <div class="metric-value">9,847</div>
+        </div>
+        <div class="metric-card secondary">
+            <div class="metric-label">Unique Denial Categories</div>
+            <div class="metric-value">8</div>
+        </div>
+    </div>
+
+    <p><strong>Scope:</strong> This analysis excludes Coverage, Paid to Patient, Bundling, Coordination of Benefits, Eligibility, Duplicate, and Recoupment/Refund categories to focus on operational denial reasons.</p>
+
+    <h2>Denial Category Distribution</h2>
+
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_fig1.png" alt="Category Distribution">
+    </div>
+
+    <p><strong>Key Finding:</strong> Credentialing/Enrollment represents the largest category at 68.4% of all denials (6,736 denials), followed by Timeliness at 13.4% (1,322 denials).</p>
+
+    <div class="page-break"></div>
+
+    <h2>Top 20 Denial Reasons</h2>
+
+    <h3>Denial Reasons #1-5</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_fig2a.png" alt="Top 5 Denial Reasons">
+    </div>
+
+    <div class="page-break"></div>
+
+    <h3>Denial Reasons #6-10</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_fig2b.png" alt="Denial Reasons 6-10">
+    </div>
+
+    <div class="page-break"></div>
+
+    <h3>Denial Reasons #11-15</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_fig2c.png" alt="Denial Reasons 11-15">
+    </div>
+
+    <div class="page-break"></div>
+
+    <h3>Denial Reasons #16-20</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_fig2d.png" alt="Denial Reasons 16-20">
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>Category Breakdown</h2>
+
+
+    <h3>1. Credentialing/Enrollment (6,736 denials - 68.4%)</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_1.png" alt="Credentialing/Enrollment">
+    </div>
+
+    <div class="page-break"></div>
+
+
+    <h3>2. Timeliness (1,322 denials - 13.4%)</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_2.png" alt="Timeliness">
+    </div>
+
+
+    <h3>3. Referral/Pre-authorization (761 denials - 7.7%)</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_3_a.png" alt="Referral/Pre-authorization Part 1">
+    </div>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_3_b.png" alt="Referral/Pre-authorization Part 2">
+    </div>
+
+    <div class="page-break"></div>
+
+
+    <h3>4. Medical Necessity (410 denials - 4.2%)</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_4_a.png" alt="Medical Necessity Part 1">
+    </div>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_4_b.png" alt="Medical Necessity Part 2">
+    </div>
+
+
+    <h3>5. Information (331 denials - 3.4%)</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_5_a.png" alt="Information Part 1">
+    </div>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_cat_5_b.png" alt="Information Part 2">
+    </div>
+
+
+
+    <div class="section-divider"></div>
+
+    <h2>Prevention Impact Analysis</h2>
+
+    <p>This section analyzes how the chart audit system would prevent denials by ensuring documentation completeness and compliance at the point of care.</p>
+
+    <h3>Impact Summary by Audit Area</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Audit Area</th>
+                <th>Denials Prevented</th>
+                <th>Number of Audit Criteria</th>
+                <th>Categories Impacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Timeliness Documentation Requirements</td>
+                <td>1,488</td>
+                <td>9</td>
+                <td>Timeliness (1,322), Information (166)</td>
+            </tr>
+            <tr>
+                <td>Authorization & Pre-certification Tracking</td>
+                <td>761</td>
+                <td>4</td>
+                <td>Referral/Pre-authorization (761)</td>
+            </tr>
+            <tr>
+                <td>Medical Necessity Documentation</td>
+                <td>410</td>
+                <td>8</td>
+                <td>Medical Necessity (410)</td>
+            </tr>
+            <tr>
+                <td>Required Documentation Attachments</td>
+                <td>335</td>
+                <td>7</td>
+                <td>Doc./Info requests (170), Information (165)</td>
+            </tr>
+            <tr>
+                <td>Level of Care Documentation</td>
+                <td>98</td>
+                <td>3</td>
+                <td>Place of Service (98)</td>
+            </tr>
+            <tr>
+                <td>Coding Support Documentation</td>
+                <td>19</td>
+                <td>3</td>
+                <td>Coding (19)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h3>Prevention Impact by Audit Area</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_prevention1.png" alt="Prevention Impact">
+    </div>
+
+    <h3>Overall Prevention Coverage</h3>
+    <div class="chart-container">
+        <img src="file:////Users/eshandosani/Documents/Chart%20audit/pdf_prevention2.png" alt="Prevention Coverage">
+    </div>
+
+    <p><strong>Summary:</strong> The chart audit system can prevent <strong>3,111 denials (31.6%)</strong> through documentation completeness checks. The largest impact comes from timeliness requirements (1,488 denials prevented) and authorization tracking (761 denials prevented).</p>
+
+    <div class="note-box">
+        <strong>Note on Credentialing/Enrollment (6,736 denials):</strong> This category is marked as "Unclear" in prevention analysis. While chart audits may catch some credentialing issues indirectly (e.g., verifying provider information), these denials are primarily administrative and may require separate credentialing verification processes beyond clinical chart audits.
+    </div>
+</body>
+</html>
