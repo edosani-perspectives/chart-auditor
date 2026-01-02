@@ -1,0 +1,156 @@
+{
+  "patientId": "137768",
+  "name": "Audrey Chaing",
+  "mrNumber": "2025-133",
+  "careType": "Residential (Detox)",
+  "admitDate": "12/30/2025",
+  "rings": {
+    "compliance": 88,
+    "process": 95,
+    "data": 80
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "family",
+          "title": "Family Engagement",
+          "description": "No documentation of initial family contact or outreach within the 72-hour admission window.",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "mtp-status",
+          "title": "MTP Status",
+          "description": "The Master Treatment Plan established on 12/30/2025 remains in 'Open' status and has not been closed by the therapist.",
+          "status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "cards",
+          "title": "Identification Uploads",
+          "description": "Scans of the member's Insurance Card and Photo ID are not present in the digital chart.",
+          "status": "upload"
+        },
+        {
+          "id": "demo",
+          "title": "Demographic Fields",
+          "description": "Fields for Race, Ethnicity, Pronouns, and Preferred Language are not answered in the demographics section.",
+          "status": "empty"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "clinical",
+          "title": "Clinical Intake",
+          "description": "BPS and History & Physical were completed within 24 hours of admission. UDS was completed on day of admit.",
+          "status": "compliant"
+        },
+        {
+          "id": "legal",
+          "title": "Consents & ROIs",
+          "description": "All required treatment consents, financial agreements, and ROIs are completed and signed.",
+          "status": "compliant"
+        },
+        {
+          "id": "safety",
+          "title": "Safety Protocols",
+          "description": "C-SSRS screening indicates low risk; Safety Contract and Self-Harm agreement were signed on day of admission.",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/30/2025)",
+      "events": [
+        {
+          "title": "Inpatient Admission",
+          "description": "Admitted to Residential/Detox status; initial doctor's orders and nursing greeting completed.",
+          "status": "success"
+        },
+        {
+          "title": "Legal Documentation",
+          "description": "All treatment and financial consents signed by patient and staff.",
+          "status": "success"
+        },
+        {
+          "title": "UDS/Toxicology",
+          "description": "Initial urine drug screen and breathalyzer completed (Result: Neg/0.00).",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 1: Clinical (12/31/2025)",
+      "events": [
+        {
+          "title": "Psychiatric Evaluation",
+          "description": "H&P and Psychiatric Eval completed by Ellen Barbieri, NP.",
+          "status": "success"
+        },
+        {
+          "title": "Biopsychosocial Assessment",
+          "description": "Completed by Clinical intake within 24 hours.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Clinical (01/02/2026)",
+      "events": [
+        {
+          "title": "Case Management Assessment",
+          "description": "CM Needs Assessment and Aftercare planning initiated.",
+          "status": "success"
+        },
+        {
+          "title": "Family Outreach",
+          "description": "Required 72-hour family contact documentation.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "Clinical_Justification": {
+      "The_Golden_Thread": "Audrey Chaing is a 45-year-old female presenting with a severe Ketamine Use Disorder (up to 1g/day) and acute Post-Traumatic Stress Disorder (PTSD). Her clinical downward spiral was precipitated by the recent emergence of repressed childhood sexual abuse memories, complicated by a miscarriage and the suicides of both a former partner and a close friend. This constellation of trauma led to street-sourcing ketamine and two involuntary psychiatric holds (5150) in the 15 days prior to admission.",
+      "Medical_Necessity_Narrative": "Residential 3.5 care is required due to acute psychiatric instability (ASAM Dimension 3) and withdrawal potential/PAWS (Dimension 1). The patient is currently experiencing 3:00 AM flashbacks, extreme sensory overstimulation (noise/light sensitivity), and 'meltdowns' that render her unable to safely manage symptoms in an outpatient setting. Her primary support system is compromised by a partner who is not currently sober, creating a high risk for immediate relapse upon discharge to a lower level of care."
+    },
+    "Dimension_Breakdown": {
+      "Dimension_1_Withdrawal_Potential": "High risk for Post-Acute Withdrawal Syndrome (PAWS) associated with heavy Ketamine use. Requiring Q6H vital signs and gabapentin titration for anxiety/detox support.",
+      "Dimension_2_Biomedical": "Complicated by an elevated autoimmune antibody and a healing wrist wound requiring monitoring for infection/self-neglect.",
+      "Dimension_3_Emotional_Behavioral": "Critical risk. Patient has active PTSD symptoms, including significant introversion, social withdrawal, and recurring nightmares/flashbacks. Recent 5150 holds demonstrate an inability to maintain safety independently.",
+      "Dimension_4_Readiness_to_Change": "Patient is in the 'Action' stage, seeking treatment due to a fear of being 'out of control,' though she is still highly susceptible to environmental triggers.",
+      "Dimension_5_Relapse_Potential": "Severe. The convergence of 'December trauma triggers' (anniversary dates) and street-sourced ketamine use indicates that without residential containment, the patient is unlikely to maintain sobriety.",
+      "Dimension_6_Recovery_Environment": "Unstable. Living alone with a non-sober boyfriend in the immediate vicinity provides a high-trigger environment for substance use."
+    },
+    "Reclaim_Milestones": {
+      "Initial_Stabilization": "Completed 72-hour observation; vital signs WNL; medication compliant.",
+      "Trauma_Integration": "Initial BPS completed. Identified childhood abuse and recent deaths as primary drivers of substance abuse.",
+      "Environment_Planning": "Aftercare plan initiated to address housing instability and sober support network."
+    },
+    "Clinical_Recommendation": "Continue Residential (3.5) status. Focus on medication stabilization (gabapentin/buspirone) and trauma-informed psychotherapy to address the 0300-0400 flashbacks before transitioning to PHP."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "patientId": "137772",
+  "payer": "Cigna Health Plans",
+  "planType": "PPO / Active",
+  "deductibleMet": "$348.21 / $2,750.00",
+  "oopMax": "$348.21 / $8,750.00",
+  "clinicalCycle": {
+    "currentCycle": "Day 24 Residential Assessment",
+    "nextReviewDate": "01/02/2026",
+    "notesSummary": [
+      "12/08: Admission for Severe AUD; client intoxicated and disoriented.",
+      "12/10: BPS completed; identified significant history of complex trauma.",
+      "12/12: Transitioned from Simmons Detox to McClay Residential care.",
+      "12/15: Initiated Acamprosate for MAT; addressed somatic throat constriction symptoms.",
+      "12/19: Processed grief regarding son's missed visit and housing instability.",
+      "12/23: Disclosed detailed history of IPV and childhood sexual abuse.",
+      "12/26: Progress noted in emotional regulation and use of trauma-focused yoga.",
+      "12/31: Final note indicates shift from victim identity toward empowerment."
+    ],
+    "barriersToStepDown": "High potential for emotional destabilization during trauma processing; active housing instability due to ex-husband's threat to sell residence; persistent hypervigilance (ASAM D3, D5, D6).",
+    "reasonsForStepDown": "Stable vital signs; compliant with all medications (MAT); active engagement in CPTSD workbook; emerging interoceptive awareness.",
+    "remedies": "Confirm placement at Avery Lane or Honeycomb Wellness for IOP/SLE; establish care with local PCP and outpatient therapist; finalize mortgage refinancing."
+  },
+  "reviews": [
+    {
+      "id": "REV001",
+      "type": "Initial Detox",
+      "date": "12/09/2025",
+      "reviewer": "Cigna Utilization Review",
+      "status": "Approved",
+      "days": 5,
+      "clinicalNotes": "Authorization for acute withdrawal management.",
+      "criteriaMet": ["ASAM Level 3.7", "Acute Intoxication"],
+      "datesAuthorized": "12/08/2025 - 12/12/2025",
+      "authNumber": "IP25711119008"
+    },
+    {
+      "id": "REV002",
+      "type": "Initial Residential",
+      "date": "12/12/2025",
+      "reviewer": "Cigna Utilization Review",
+      "status": "Approved",
+      "days": 7,
+      "clinicalNotes": "Patient cleared detox; requires residential containment for trauma and SI history.",
+      "criteriaMet": ["ASAM Level 3.5", "Emotional/Behavioral Conditions"],
+      "datesAuthorized": "12/13/2025 - 12/19/2025",
+      "authNumber": "IP2575757356"
+    },
+    {
+      "id": "REV003",
+      "type": "Continued Stay",
+      "date": "12/19/2025",
+      "reviewer": "Cigna Utilization Review",
+      "status": "Approved",
+      "days": 7,
+      "clinicalNotes": "Continued clinical necessity due to hyperarousal and relapse risk.",
+      "criteriaMet": ["ASAM Level 3.5", "Relapse Potential"],
+      "datesAuthorized": "12/20/2025 - 12/26/2025",
+      "authNumber": "IP2575757356"
+    },
+    {
+      "id": "REV004",
+      "type": "Continued Stay",
+      "date": "12/26/2025",
+      "reviewer": "Cigna Utilization Review",
+      "status": "Approved",
+      "days": 7,
+      "clinicalNotes": "Approved through anticipated discharge for stabilization.",
+      "criteriaMet": ["ASAM Level 3.5", "Recovery Environment"],
+      "datesAuthorized": "12/27/2025 - 01/02/2026",
+      "authNumber": "IP2575757356"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "F10.20 Alcohol use disorder, Severe",
+      "F43.10 PTSD (Complex)",
+      "F33.9 Major depressive disorder, recurrent",
+      "F41.1 Generalized anxiety disorder",
+      "F41.0 Panic disorder"
+    ],
+    "precipitatingEvent": "Son leaving for college (empty nest) combined with ex-husband's legal threats to sell her home and force her out.",
+    "mentalStatus": {
+      "appearance": "Disheveled at admit; later casual and appropriate.",
+      "mood": "Tearful, Anxious, Depressed.",
+      "affect": "Labile and Blunted; transitioned to Congruent/Jovial.",
+      "risk": "History of SA (8 years ago, wrist slitting); current passive SI (no plan).",
+      "judgement": "Fair (impaired by acute stress).",
+      "orientation": "Oriented x4."
+    },
+    "biomedicalConditions": "Chronic Insomnia; Somatic throat constriction; Hyperarousal/Startle response.",
+    "medications": "Acamprosate, Gabapentin, Trazodone, Melatonin, Clonidine, Acetaminophen.",
+    "substanceUseHistory": "Heavy alcohol use for 30+ years; 2 bottles of wine daily; drinking since morning of admit.",
+    "treatmentHistory": "5150 hold 7 years ago (Marin General); previous 6-8 month sobriety; failed outpatient therapy.",
+    "traumaHistory": {
+      "physical": true,
+      "sexual": true,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "High risk; ex-husband trying to sell her condo.",
+      "financial": "Strained; income lower than expenses.",
+      "employment": "Currently on medical leave; work partner found treatment.",
+      "relationships": "Divorced; narcissistic/abusive ex; son in college.",
+      "legal": "History of one DUI."
+    },
+    "moodSymptoms": "Rumination, emotional disconnection, isolation, grief.",
+    "barriersToDischarge": "Inadequate independent coping capacity outside controlled environment; lack of safe stable housing.",
+    "treatmentPlanGoals": "Achieve and maintain sobriety from alcohol. Process unresolved complex trauma. Establish a safe and stable living situation.",
+    "dischargePlan": "Step-down to Avery Lane IOP/SLE for continued trauma work and housing stability."
+  },
+  "perspectives_reclaim": {
+    "patient_name": "Megan Vinson",
+    "mr_number": "2025-128",
+    "theme": "Internal Transition: From Victimhood to Empowerment",
+    "the_narrative": {
+      "original_state": "Upon admission, the client presented as disheveled, disoriented, and deeply entrenched in a 'victim-based' identity. She conceptualized her former partner as an 'addiction' and her drinking as a 'byproduct of all the trauma,' describing a sense of being 'underwater' and 'trapped' by her past.",
+      "reclaimed_state": "By the end of the clinical cycle, Megan moved toward a self-empowered stance. She began conceptualizing her recovery as an 'internal transition,' explicitly seeking to reclaim personal autonomy and a version of herself she remembers from before her marriage—one who was competent and in control."
+    },
+    "clinical_milestones": [
+      {
+        "milestone": "Somatic Awareness",
+        "description": "Transitioned from experiencing trauma as physical 'throat constriction' and 'shallow breathing' to actively using trauma-focused yoga and guided breathwork to 'vocalize' and release stored tension.",
+        "outcome": "Improved interoceptive awareness and emotional regulation."
+      },
+      {
+        "milestone": "Cognitive Reframing",
+        "description": "Moved from viewing herself as 'stuck' to viewing her anger toward her ex-partner as 'earned' and valid, allowing her to process fear without resorting to substance use for numbing.",
+        "outcome": "Reduction in shame-based rumination."
+      },
+      {
+        "milestone": "Spiritual Connection",
+        "description": "Identified a personal, 'universal version' of spirituality (influenced by Thich Nhat Hanh), replacing feelings of isolation with a sense of being 'connected' to a higher power for the first time in years.",
+        "outcome": "Increased hope and existential stability."
+      }
+    ],
+    "strengths_reclaimed": [
+      "Determination and Goal-Orientation",
+      "Resourcefulness in Career (Finance/Real Estate background)",
+      "Capacity for Deep Introspection",
+      "Resilience as a Parent and Pet Owner",
+      "Pro-social Peer Engagement"
+    ],
+    "patient_voice": {
+      "key_quote_1": "I want this trauma out... it's like I have a fishing hook in me and I just want to pull it out.",
+      "key_quote_2": "I'm tired of carrying around all this other stuff. I want to be the whole human I want to be.",
+      "key_quote_3": "I need a safe and supportive setting to engage in trauma therapy... I'm looking forward to being happy again."
+    },
+    "reclamation_plan": {
+      "focus": "Addressing the 'bricks' of trauma through continued CPTSD workbook application.",
+      "objective": "Establish an independent life free from the ex-partner's control, focusing on 'peace and calm' through mortgage refinancing and a stable recovery environment (SLE).",
+      "next_step": "Step-down to Avery Lane or Honeycomb Wellness to bridge residential insights into real-world autonomy."
+    }
+  }
+}

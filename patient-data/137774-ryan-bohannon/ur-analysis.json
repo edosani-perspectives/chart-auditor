@@ -1,0 +1,94 @@
+{
+  "patientId": "137774",
+  "payer": "Insurance Documented (VOB on file)",
+  "planType": "Verification of Benefits Attached (Page 14)",
+  "deductibleMet": "Per VOB documentation (Page 14)",
+  "oopMax": "Per VOB documentation (Page 14)",
+  "clinicalCycle": {
+    "currentCycle": "Day 32+ Residential Treatment",
+    "nextReviewDate": "01/15/2026",
+    "notesSummary": [
+      "11/28/2025: Admitted to care team. Assigned to Lori Sparrow, LMFT. Initial treatment plan started within 24 hours. Safety Contract and Safe-T Assessment completed (Pages 11, 61, 50, 96).",
+      "12/01/2025: BPS completed by Lori Sparrow, LMFT. ASAM Integrated Summary completed. Psychiatric evaluation by Ellen Barbieri, NP (Pages 289, 299, 115).",
+      "12/02/2025: Initial clinical note completed within 7-day window. Same-day documentation maintained (Page 412).",
+      "12/14/2025: MAT/Peer monitoring note documented by Scheria Smith, LVN (Page 193).",
+      "12/30/2025: Clinical progress note by Stewart Bryant, LMFT. Treatment goals clearly reflect work on grief and codependency. Nicotine cessation counseling with patches initiated (Page 383).",
+      "12/31/2025: Family conjoint session documented, demonstrating strong family engagement (Page 381)."
+    ],
+    "barriersToStepDown": "Processing complex grief and codependency patterns. Member requires continued therapeutic support to address emotional triggers and develop sustainable coping strategies before transitioning to lower level of care (Page 412).",
+    "reasonsForStepDown": "Excellent family engagement with conjoint sessions completed. Strong therapeutic alliance established. Medication compliance maintained. Active participation in nicotine cessation program demonstrating commitment to holistic recovery.",
+    "remedies": "Transition to PHP or IOP (potentially Embodied IOP per ROI). Continue family therapy component. Weekly case management follow-up. Connection to community-based peer support groups. Ongoing nicotine cessation support (Pages 422, 67)."
+  },
+  "reviews": [
+    {
+      "id": "UR-RB-001",
+      "type": "Initial Admission Review",
+      "date": "11/28/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 30,
+      "clinicalNotes": "Member meets ASAM criteria for Residential 3.5 level of care. Comprehensive admission documentation complete including H&P, CURES Report, external labs, consents, and ROIs. Initial provider appointment completed within 72-hour window (Pages 8, 14, 104, 29, 67, 111).",
+      "criteriaMet": [
+        "ASAM Dimensions 1-6 criteria met (Page 299)",
+        "Medical necessity for structured residential environment",
+        "Complex grief and codependency requiring intensive intervention",
+        "Family system involvement needed"
+      ],
+      "datesAuthorized": "11/28/2025 - 12/28/2025",
+      "authNumber": "Per Insurance Verification (Page 14)"
+    },
+    {
+      "id": "UR-RB-002",
+      "type": "Continued Stay Review",
+      "date": "12/28/2025",
+      "reviewer": "Clinical Team Review",
+      "status": "Approved",
+      "days": 14,
+      "clinicalNotes": "Member demonstrating continued progress in treatment programming. Active engagement in individual and family therapy. Clinical notes consistently completed same day of service. Treatment plan goals align with member's personal recovery goals (Pages 379-412, 418-419).",
+      "criteriaMet": [
+        "Active treatment response",
+        "Family engagement (conjoint session 12/31)",
+        "Continued medical necessity for 24/7 support"
+      ],
+      "datesAuthorized": "12/28/2025 - 01/15/2026",
+      "authNumber": "Pending"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "Substance Use Disorder (comprehensive substance use history documented, Page 111)",
+      "Major Depressive Disorder (PHQ-9 administered, Page 419)",
+      "Generalized Anxiety Disorder (GAD-7 administered, Page 419)",
+      "Nicotine Use Disorder (patches and cessation counseling initiated, Page 383)"
+    ],
+    "precipitatingEvent": "Complex grief and codependency patterns requiring intensive residential treatment. Family dynamics requiring therapeutic intervention (Pages 412, 381).",
+    "mentalStatus": {
+      "appearance": "Well-groomed, appropriate dress",
+      "mood": "Improving, engaged in treatment",
+      "affect": "Appropriate range, congruent with mood",
+      "risk": "Safety Contract signed. Safe-T Assessment completed within 24 hours. C-SSRS rescreen documented per policy in clinical progress notes (Pages 50, 96, 385)",
+      "judgement": "Good, improving with treatment",
+      "orientation": "Oriented to person, place, time, and situation"
+    },
+    "biomedicalConditions": "CURES Report reviewed. External labs documented. H&P completed by Ellen Barbieri, NP on admission. Physician Progress Notes maintained (Pages 104, 111, 120).",
+    "medications": "Psychiatric medication regimen per NP orders. MAT monitoring documented by Scheria Smith, LVN. Nicotine patches for cessation support (Pages 191, 193, 383).",
+    "substanceUseHistory": "Comprehensive substance use history completed in BPS and psychiatric evaluation. UDS completed on admission 11/28/2025 (Pages 111, 192).",
+    "treatmentHistory": "ROI signed for Embodied IOP, suggesting prior or planned IOP treatment. Prior treatment history documented in comprehensive assessment (Page 67).",
+    "traumaHistory": {
+      "physical": false,
+      "sexual": false,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Stable (married, resides with spouse)",
+      "financial": "Employed in Sales (occupation documented)",
+      "employment": "Sales position (Page 18)",
+      "relationships": "Married. Strong family engagement evidenced by emergency ROI for Sheila Bohannon and conjoint family session 12/31. Working on codependency patterns (Pages 11, 67, 381, 412)",
+      "legal": "No current legal issues documented"
+    },
+    "moodSymptoms": "PHQ-9 and GAD-7 administered for baseline and ongoing assessment of depression and anxiety symptoms. Clinical notes document mood improvement with treatment engagement (Page 419).",
+    "barriersToDischarge": "Complex grief processing and codependency patterns require continued therapeutic intervention. Need for structured environment to consolidate gains before step-down (Page 412).",
+    "treatmentPlanGoals": "Treatment plan problems reflect issues identified in BPS. Goals align with member's personal recovery objectives including grief work, codependency recovery, relapse prevention, and family healing. Member and counselor signatures obtained (Pages 418-419, 63).",
+    "dischargePlan": "Step-down to PHP or IOP (Embodied IOP per ROI). Continued individual and family therapy. Case management support for aftercare coordination. Community-based peer support engagement. Ongoing nicotine cessation support (Pages 422, 67)."
+  }
+}

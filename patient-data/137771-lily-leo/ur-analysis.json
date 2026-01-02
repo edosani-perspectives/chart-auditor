@@ -1,0 +1,111 @@
+{
+  "patientId": "137771",
+  "payer": "Aetna",
+  "planType": "Subscriber ID: W286110127",
+  "deductibleMet": "No (Insurance Priority listed as Active, but DED not met)",
+  "oopMax": "No (Out of Pocket Max not met per Insurance Verification)",
+  "clinicalCycle": {
+    "currentCycle": "Day 10 Residential Review",
+    "nextReviewDate": "01/26/2026 (Anticipated Discharge)",
+    "notesSummary": [
+      "12/21/25: Admitted in acute distress; initiated Detox Protocol 1 (Page 251).",
+      "12/23/25: Sent to ER for +3 bilateral edema in feet; diagnosed with peripheral edema and B-12 deficiency (Page 158).",
+      "12/29/25: Cognitive clarity improving; gait remains unsteady but 'steadier' with cane use (Page 134).",
+      "12/31/25: Patient well-groomed, cooperative, processing trauma related to childhood and custody battle (Page 319)."
+    ],
+    "barriersToStepDown": "Significant physical impairment (peripheral neuropathy and unsteady gait), emotional dysregulation regarding separation from children, and the need for continued monitoring of bilateral lower extremity edema (Page 313).",
+    "reasonsForStepDown": "Improving cognitive status, commitment to a 30-day program, and transition from PRN anxiety meds to maintenance meds (Page 134).",
+    "remedies": "Continued trauma-focused therapy, referral to a physical therapist for balance issues, and coordination with Dr. Honda (PCP) for medical follow-up (Page 323)."
+  },
+  "reviews": [
+    {
+      "id": "REV-001",
+      "type": "Initial / Detox authorization",
+      "date": "12/21/2025",
+      "reviewer": "John C. ONeil, MD",
+      "status": "Approved",
+      "days": 3,
+      "clinicalNotes": "Detox Level 1 established with 72-hour Q30 min observation (Page 126).",
+      "criteriaMet": ["ASAM 3.7-WM"],
+      "datesAuthorized": "12/21/2025 - 12/24/2025",
+      "authNumber": "Pending"
+    },
+    {
+      "id": "REV-002",
+      "type": "Continued Stay / Residential",
+      "date": "12/24/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 30,
+      "clinicalNotes": "Transitioned to Residential status; 1-hour safety checks maintained due to fall risk (Page 246).",
+      "criteriaMet": ["ASAM 3.5"],
+      "datesAuthorized": "12/24/2025 - 01/26/2026",
+      "authNumber": "Pending"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "F19.20 Other psychoactive substance dependence, uncomplicated (Nitrous Oxide)",
+      "F33.9 Major depressive disorder, recurrent, unspecified",
+      "F90.9 Unspecified attention-deficit/hyperactivity disorder"
+    ],
+    "precipitatingEvent": "Excessive use of Nitrous Oxide leading to neurological deficits (inability to walk for 6 months) and a CPS investigation after a child obtained one of her nitrous tanks (Page 20).",
+    "mentalStatus": {
+      "appearance": "Initially unkempt/disheveled (p. 251); later well-groomed (p. 319).",
+      "mood": "Sad and Anxious",
+      "affect": "Labile and Overwhelmed",
+      "risk": "History of 'fixation on hanging'; currently no active plan or intent (Page 251).",
+      "judgement": "Fair",
+      "orientation": "Oriented x4 (Person, Place, Time, Situation)"
+    },
+    "biomedicalConditions": "Chronic peripheral neuropathy, unsteady gait/limp, B-12 deficiency due to inhalant abuse, and +3 bilateral pitting edema in feet (Page 127).",
+    "medications": "Wellbutrin XL (300mg), Gabapentin (300mg TID), Acamprosate (333mg), Lorazepam (0.5mg PRN), and various supplements (Folic Acid, B12) (Page 135).",
+    "substanceUseHistory": "Nitrous Oxide (DOC): 1-2 tanks daily for 1.5 years. Past history of Methamphetamine (teen years), Marijuana gummies, and intermittent Cocaine (Page 20-21).",
+    "treatmentHistory": "2015: Promises (Malibu) for Meth; 2023: Alta Mira (Sausalito) for Nitrous (Page 24).",
+    "traumaHistory": {
+      "physical": true,
+      "sexual": true,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Lives alone; currently separated (Page 127).",
+      "financial": "High spending on substances; currently freelance writer (Page 126).",
+      "employment": "Freelance writer/PhD in Behavioral Neuro Science (Page 127).",
+      "relationships": "Separated from husband; boyfriend 'not inducive to sobriety' (Page 127).",
+      "legal": "Active custody battle and history of CPS involvement (Page 20)."
+    },
+    "moodSymptoms": "Night terrors, frequent crying episodes, feelings of worthlessness, and 'humiliation' regarding relapse (Page 312).",
+    "barriersToDischarge": "Ongoing physical instability, lack of a sober support network (boyfriend uses), and significant emotional instability regarding her children (Page 127).",
+    "treatmentPlanGoals": "Medical stabilization and safe detox. Gain insight into the neurotoxic effects of Nitrous Oxide. Develop trauma-informed coping skills. Establish a stable aftercare environment and legal mediation (Page 63).",
+    "dischargePlan": "Step down to Intensive Outpatient (IOP) with continued AA/NA attendance; Referral to a specialist in EMDR and somatic therapy for trauma processing (Page 321)."
+  },
+  "perspectives_reclaim": {
+    "identity_profile": {
+      "patient_name": "Lily Leo",
+      "professional_background": "PhD in Behavioral Neuroscience; Freelance Writer on Neuroplasticity",
+      "strengths": "Highly intellectual, creative (writer/knitter), motivated to remain in treatment for 30+ days, resilient history of recovering from physical paralysis (Page 127, 312)."
+    },
+    "the_struggle": {
+      "primary_conflict": "Severe Nitrous Oxide dependence used as a maladaptive coping mechanism for treatment-resistant depression and anxiety (Page 20).",
+      "physical_toll": "Peripheral neuropathy and B-12 deficiency leading to historical loss of ambulation and current unsteady gait with +3 bilateral pitting edema (Page 127, 158).",
+      "systemic_toll": "Active separation/divorce, CPS involvement, and an ongoing custody battle for children aged 6 and 8 (Page 20, 127)."
+    },
+    "clinical_remediation": {
+      "stabilization_milestones": [
+        "Successful transition from acute Detox Level 1 to Residential status (Page 246).",
+        "Improvement in cognitive clarity: from brief 'yes/no' responses to engaging in deep trauma processing sessions (Page 251, 319).",
+        "Medical stabilization of bilateral edema via compression stockings and referral to PCP (Page 313)."
+      ],
+      "therapeutic_focus": "Processing a history of childhood trauma and emotional neglect; addressing the 'humiliation' of relapse in the context of her academic background in neuroscience (Page 312, 321)."
+    },
+    "path_to_reclamation": {
+      "immediate_goals": [
+        "Establishment of Dual Power of Attorney with her father to manage legal/parental responsibilities (Page 134).",
+        "Consistent use of assistive devices (cane) and proper footwear to prevent falls (Page 231).",
+        "Stabilization on a medication regimen of Wellbutrin XL and Gabapentin, transitioning away from inhalant use (Page 135)."
+      ],
+      "aftercare_vision": "Step down to IOP with a heavy focus on EMDR and Somatic therapy; engagement with a Sober Coach (Roland Williams) and consistent AA/NA attendance (Page 321, 327)."
+    },
+    "auditor_summary": "Patient is a high-functioning professional whose addiction caused a catastrophic physical and social collapse. Clinical documentation reflects a high level of medical necessity due to physical fall risks and complex legal/familial stressors. Reclamation is evident in her shift from an 'unkempt' admission state to active participation in group sessions and planning for a stable, sober future for the sake of her children."
+  }
+}

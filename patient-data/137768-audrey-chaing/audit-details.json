@@ -1,0 +1,431 @@
+{
+  "patientId": "137768",
+  "categories": [
+    {
+      "title": "Admissions & Demographics",
+      "items": [
+        {
+          "id": "adm-1",
+          "question": "Is the Pre-Admission Assessment attached?",
+          "answer": "YES",
+          "page": 10
+        },
+        {
+          "id": "adm-2",
+          "question": "Is the VOB attached?",
+          "answer": "YES",
+          "page": 6
+        },
+        {
+          "id": "adm-3",
+          "question": "If applicable, are medical records attached?",
+          "answer": "YES",
+          "page": 90
+        },
+        {
+          "id": "adm-4",
+          "question": "Are all consents completed and signed?",
+          "answer": "YES",
+          "page": 20
+        },
+        {
+          "id": "adm-5",
+          "question": "Are all ROIs completed and signed?",
+          "answer": "YES",
+          "page": 67
+        },
+        {
+          "id": "adm-6",
+          "question": "Is the member assigned to a Care Team?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "adm-7",
+          "question": "Is the member's insurance card uploaded to chart?",
+          "answer": "NO",
+          "page": 6
+        },
+        {
+          "id": "adm-8",
+          "question": "Is the member's photo ID uploaded to the chart?",
+          "answer": "NO",
+          "page": 4
+        },
+        {
+          "id": "adm-9",
+          "question": "Is there a valid phone number listed in the chart?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "adm-10",
+          "question": "Is Preferred Language answered in demographics?",
+          "answer": "NO",
+          "page": 4
+        },
+        {
+          "id": "adm-11",
+          "question": "Is Birth Sex answered in demographics?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "adm-12",
+          "question": "Is Gender Identity answered in demographics?",
+          "answer": "YES",
+          "page": 10
+        },
+        {
+          "id": "adm-13",
+          "question": "Are Pronouns answered in demographics?",
+          "answer": "NO",
+          "page": 4
+        },
+        {
+          "id": "adm-14",
+          "question": "Is Marital Status answered in demographics?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "adm-15",
+          "question": "Is Race answered in demographics?",
+          "answer": "NO",
+          "page": 4
+        },
+        {
+          "id": "adm-16",
+          "question": "Is Ethnicity answered in demographics?",
+          "answer": "NO",
+          "page": 4
+        },
+        {
+          "id": "adm-17",
+          "question": "Is Employer Name answered in demographics?",
+          "answer": "YES",
+          "page": 61
+        },
+        {
+          "id": "adm-18",
+          "question": "Are there comments on Admissions?",
+          "answer": "YES",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "title": "Medical & Safety",
+      "items": [
+        {
+          "id": "med-1",
+          "question": "What is the name of the provider completing the Psych Eval?",
+          "answer": "YES",
+          "page": 89
+        },
+        {
+          "id": "med-2",
+          "question": "Was the initial provider appointment made within 72 hours?",
+          "answer": "YES",
+          "page": 89
+        },
+        {
+          "id": "med-3",
+          "question": "Are all questions answered, including ASAM?",
+          "answer": "YES",
+          "page": 143
+        },
+        {
+          "id": "med-4",
+          "question": "Has the Substance Use History been completed fully?",
+          "answer": "YES",
+          "page": 11
+        },
+        {
+          "id": "med-5",
+          "question": "Are the diagnoses explained by the Psych Eval?",
+          "answer": "YES",
+          "page": 96
+        },
+        {
+          "id": "med-6",
+          "question": "Does the treatment plan in the evaluation reflect member needs?",
+          "answer": "YES",
+          "page": 96
+        },
+        {
+          "id": "med-7",
+          "question": "Was a UDS completed upon admission?",
+          "answer": "YES",
+          "page": 128
+        },
+        {
+          "id": "med-8",
+          "question": "Are there comments on Medical?",
+          "answer": "YES",
+          "page": 93
+        },
+        {
+          "id": "med-9",
+          "question": "Was the initial Safe-T Assessment completed within 24 hours?",
+          "answer": "YES",
+          "page": 82
+        },
+        {
+          "id": "med-10",
+          "question": "If indicated, was a safety plan created?",
+          "answer": "YES",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "title": "Clinical Intake",
+      "items": [
+        {
+          "id": "cli-1",
+          "question": "What is the name of the Clinical Intake Therapist?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "cli-2",
+          "question": "Was the BPS completed within 24 hours of admission?",
+          "answer": "YES",
+          "page": 134
+        },
+        {
+          "id": "cli-3",
+          "question": "Was an Outcome Measure completed based on MH issues?",
+          "answer": "YES",
+          "page": 69
+        },
+        {
+          "id": "cli-4",
+          "question": "Was an initial treatment plan started within 24 hours?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "cli-5",
+          "question": "Was the Case Management Needs Assessment completed within 72 hours?",
+          "answer": "YES",
+          "page": 134
+        },
+        {
+          "id": "cli-6",
+          "question": "Was the Case Management Needs Assessment completed fully?",
+          "answer": "YES",
+          "page": 134
+        },
+        {
+          "id": "cli-7",
+          "question": "Are there comments on Clinical Intake?",
+          "answer": "YES",
+          "page": 134
+        }
+      ]
+    },
+    {
+      "title": "Clinical Notes & Documentation",
+      "items": [
+        {
+          "id": "clin-1",
+          "question": "What is the name of the assigned therapist?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "clin-2",
+          "question": "Was the initial Clinical Note completed within 7 days of admission?",
+          "answer": "YES",
+          "page": 130
+        },
+        {
+          "id": "clin-3",
+          "question": "Was the Clinical Note completed the same day of service?",
+          "answer": "YES",
+          "page": 130
+        },
+        {
+          "id": "clin-4",
+          "question": "Are there Clinical Notes every 7 days?",
+          "answer": "YES",
+          "page": 129
+        },
+        {
+          "id": "clin-5",
+          "question": "Were those notes completed the same day of service?",
+          "answer": "YES",
+          "page": 130
+        },
+        {
+          "id": "clin-6",
+          "question": "Was the C-SSRS rescreen completed per policy?",
+          "answer": "YES",
+          "page": 82
+        },
+        {
+          "id": "clin-7",
+          "question": "What is the date of the Clinical Note being reviewed?",
+          "answer": "YES",
+          "page": 129
+        },
+        {
+          "id": "clin-8",
+          "question": "Who completed the Clinical Note?",
+          "answer": "YES",
+          "page": 129
+        },
+        {
+          "id": "clin-9",
+          "question": "Does the Clinical Note clearly reflect treatment goals?",
+          "answer": "YES",
+          "page": 129
+        },
+        {
+          "id": "clin-10",
+          "question": "Is each section of ASAM completed appropriately?",
+          "answer": "YES",
+          "page": 143
+        },
+        {
+          "id": "clin-11",
+          "question": "Does the Plan section reflect member assignments?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "clin-12",
+          "question": "Does the Plan section reflect when the next appointment will be?",
+          "answer": "YES",
+          "page": 147
+        },
+        {
+          "id": "clin-13",
+          "question": "Does the MSE reflect information provided in ASAM?",
+          "answer": "YES",
+          "page": 77
+        },
+        {
+          "id": "clin-14",
+          "question": "Are specific barriers listed for step-down to lower level of care?",
+          "answer": "NO",
+          "page": 51
+        },
+        {
+          "id": "clin-15",
+          "question": "Does the Clinical Note provide medical necessity?",
+          "answer": "YES",
+          "page": 149
+        },
+        {
+          "id": "clin-16",
+          "question": "Was family contacted within 72 hours of admission?",
+          "answer": "NO",
+          "page": 134
+        },
+        {
+          "id": "clin-17",
+          "question": "Is there documentation for family sessions?",
+          "answer": "NO",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "title": "Master Treatment Plan",
+      "items": [
+        {
+          "id": "mtp-1",
+          "question": "Name of assigned SUD counselor/therapist?",
+          "answer": "YES",
+          "page": 4
+        },
+        {
+          "id": "mtp-2",
+          "question": "Was the initial Treatment Plan closed by the therapist?",
+          "answer": "NO",
+          "page": 51
+        },
+        {
+          "id": "mtp-3",
+          "question": "Were Treatment Plan problems created within 7 days of admission?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-4",
+          "question": "Do Treatment Plan problems reflect problems identified in the BPS?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-5",
+          "question": "Are active problems reflected on the Master Treatment Plan?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-6",
+          "question": "Does each clinical problem have at least one goal?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-7",
+          "question": "Does each goal have at least two objectives?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-8",
+          "question": "Does each goal reflect the member's personal goals?",
+          "answer": "YES",
+          "page": 70
+        },
+        {
+          "id": "mtp-9",
+          "question": "Is each goal written as a SMART goal?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-10",
+          "question": "Do the objectives use an outcome measure?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-11",
+          "question": "Are outcome measures updated to reflect progress?",
+          "answer": "YES",
+          "page": 51
+        },
+        {
+          "id": "mtp-12",
+          "question": "Have the member and counselor signed off on the Treatment Plans?",
+          "answer": "YES",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "title": "Peer Services",
+      "items": [
+        {
+          "id": "peer-1",
+          "question": "What is the name of the assigned Peer Recovery Specialist?",
+          "answer": "NO",
+          "page": 1
+        },
+        {
+          "id": "peer-2",
+          "question": "Is group attendance discussed?",
+          "answer": "YES",
+          "page": 129
+        }
+      ]
+    }
+  ]
+}

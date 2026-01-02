@@ -1,0 +1,150 @@
+{
+  "patientId": "137770",
+  "name": "Carson Sheaffer",
+  "mrNumber": "2025-132",
+  "careType": "Residential (Level 3.5)",
+  "admitDate": "12/29/2025",
+  "rings": {
+    "compliance": 92,
+    "process": 95,
+    "data": 88
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "peer",
+          "title": "Peer Recovery Assignment",
+          "description": "No assigned Peer Recovery Specialist or Peer Progress Notes found in the record.",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "family",
+          "title": "Family Session Documentation",
+          "description": "Spouse is identified as a primary supporter, but no family sessions have been scheduled or documented within the first 72 hours.",
+          "status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "demo",
+          "title": "Demographic Gaps",
+          "description": "Pronouns, Race, and Ethnicity fields are left blank in the demographic face sheet (Page 5).",
+          "status": "empty"
+        },
+        {
+          "id": "cards",
+          "title": "Visual ID/Insurance Verification",
+          "description": "Data fields for ID and Insurance are populated, but scanned images of the cards are not present in the chart.",
+          "status": "upload"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "legal",
+          "title": "Consents & ROIs",
+          "description": "All treatment consents, HIPAA notices, and ROIs are completed and signed (Pages 21-59).",
+          "status": "compliant"
+        },
+        {
+          "id": "clinical",
+          "title": "Clinical Assessments",
+          "description": "BPS, H&P, and Safe-T assessments were completed within required 24-hour windows (Pages 90, 160).",
+          "status": "compliant"
+        },
+        {
+          "id": "mtp",
+          "title": "Master Treatment Plan",
+          "description": "MTP initiated within 24 hours with SMART goals and member signatures (Pages 36-37).",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/29)",
+      "events": [
+        {
+          "title": "Admitting Order & H&P",
+          "description": "Physical exam and admitting orders completed by Ellen Barbieri, NP.",
+          "status": "success"
+        },
+        {
+          "title": "Toxicology Screening",
+          "description": "UDS and Breathalyzer (0.21 BAC) performed upon arrival.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 1: Clinical (12/30)",
+      "events": [
+        {
+          "title": "Biopsychosocial Assessment",
+          "description": "Full BPS completed by John Foord, LMFT.",
+          "status": "success"
+        },
+        {
+          "title": "Initial Clinical Note",
+          "description": "Individual psychotherapy note documented the same day of service.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Case Management (12/31)",
+      "events": [
+        {
+          "title": "Needs Assessment",
+          "description": "Case management needs integrated into the BPS and MTP review.",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "clinical_insight": "The patient presents with severe physiological and psychological dependence, evidenced by his inability to maintain abstinence even during transit to the facility (consuming alcohol in his father's presence). This highlights a critical failure of impulse control and a high degree of 'shame-based' avoidance coping. His history of 'masking' symptoms indicates that while he may appear compliant, there is a significant risk of internalizing distress which has historically led to secretive relapse.",
+    "level_of_care_justification": "Residential Level 3.5 is medically necessary due to the severity of the patient's withdrawal risk (Dimension 1), complicated by a history of untreated hypertension (186/103 on admit). The 24-hour structure is required to interrupt a decades-long cycle of emotional suppression and to provide the containment necessary to address co-occurring OCD and anxiety symptoms that the patient is currently unable to manage in a less restrictive environment.",
+    "growth_areas_reclaim": [
+      {
+        "target": "Avoidant Communication",
+        "description": "Transition from conflict-avoidant/superficial interactions to vulnerable and direct emotional expression with primary supports (wife)."
+      },
+      {
+        "target": "Impulse Regulation",
+        "description": "Move beyond intrinsic motivation to develop concrete 'unstructured time' coping strategies, as these are his primary relapse triggers."
+      },
+      {
+        "target": "Biomedical Stabilization",
+        "description": "Establish a baseline for blood pressure management once the diazepam taper is complete, to rule out chronic hypertension versus withdrawal-induced spikes."
+      }
+    ],
+    "strengths_to_leverage": [
+      "High functional capacity (13 years of continuous employment).",
+      "Strong familial protective factors (unconditional support from spouse).",
+      "Internalized desire for change (entered treatment by personal choice, not just legal mandate)."
+    ],
+    "discharge_integrity_focus": "The primary focus for successful discharge must be the 're-socialization' of the family unit. Given the children's habit of disengaging into technology during his intoxication, family-focused therapy is essential to prevent a return to the maladaptive home environment."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "patientId": "137768",
+  "payer": "California Blue Shield",
+  "planType": "PPO / Private Pay",
+  "deductibleMet": "$0 / $14,000",
+  "oopMax": "$0 / $25,000",
+  "clinicalCycle": {
+    "currentCycle": "Day 1 Assessment",
+    "nextReviewDate": "01/06/2026",
+    "notesSummary": [
+      "12/30/2025: Admitted for Ketamine abuse and PTSD. UDS negative. Patient compliant and cooperative.",
+      "12/31/2025: Nursing note indicates patient is med compliant, reports flashbacks at 3-4am, mood is anxious but cooperative. Slept through the night."
+    ],
+    "barriersToStepDown": "Severe PTSD symptoms, history of 5150 holds within two weeks of admission, unstable living environment with non-sober boyfriend.",
+    "reasonsForStepDown": "None at this time; patient recently admitted and requires stabilization and detox monitoring.",
+    "remedies": "Stabilize on medication regimen, engage in therapeutic group process, and secure stable housing for aftercare."
+  },
+  "reviews": [
+    {
+      "id": "REV-001",
+      "type": "Initial Review",
+      "date": "12/30/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 7,
+      "clinicalNotes": "Initial admission for SUD Detox and Residential stabilization. Patient presents with significant trauma history and recent psychiatric instability.",
+      "criteriaMet": [
+        "ASAM 3.5",
+        "Recent 5150 evaluation",
+        "Substance abuse with high risk for relapse"
+      ],
+      "datesAuthorized": "12/30/2025 - 01/07/2026",
+      "authNumber": "Pending"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "F19.20 Other psychoactive substance dependence, uncomplicated",
+      "PTSD (Post-Traumatic Stress Disorder)"
+    ],
+    "precipitatingEvent": "Recent realization of repressed childhood sexual abuse memories, combined with a miscarriage, ex-partner's suicide, and recent 5150 psychiatric holds.",
+    "mentalStatus": {
+      "appearance": "Well groomed, no acute distress",
+      "mood": "Anxious, overstimulated",
+      "affect": "Appropriate",
+      "risk": "Low (C-SSRS negative for ideation/intent)",
+      "judgement": "Good",
+      "orientation": "Oriented x 4"
+    },
+    "biomedicalConditions": "Elevated autoimmune antibody; right wrist wound (healing); history of insomnia.",
+    "medications": "Gabapentin 300mg QID, Propranolol 10mg BID, Buspirone 7.5mg BID, Trazodone 50mg HS, Progesterone 300mg HS, Thiamine 100mg PO Daily, Multivitamin",
+    "substanceUseHistory": "Ketamine (Drug of choice, up to 1g daily for last 18 months), Alcohol (2-3 glasses of wine occasionally).",
+    "treatmentHistory": "Bayside Treatment Center (Detox, Dec 2025); Alameda Hospital (Psychiatric ER, Dec 2025).",
+    "traumaHistory": {
+      "physical": true,
+      "sexual": true,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Lives alone; boyfriend is not sober",
+      "financial": "Private pay participant; currently unemployed",
+      "employment": "Tech Founder / CTO, currently unemployed",
+      "relationships": "Rocky relationships; social withdrawal; history of abusive family dynamic",
+      "legal": "Denies current charges; historical police contact for wellness checks"
+    },
+    "moodSymptoms": "Insomnia, flashbacks, 'meltdowns' due to noise/light sensitivity, anxiety, introversion.",
+    "barriersToDischarge": "Inadequate sober support system, high risk of trauma triggers, and need for stabilized housing.",
+    "treatmentPlanGoals": "Medical stabilization, development of therapeutic rapport, education on PAWS, and relapse prevention planning.",
+    "dischargePlan": "Transition to a less restrictive level of care (PHP/IOP) with a focus on trauma-informed therapy and stable housing."
+  },
+  "Perspectives_Reclaim": {
+    "Clinical_Justification": {
+      "The_Golden_Thread": "Audrey Chaing is a 45-year-old female presenting with a severe Ketamine Use Disorder (up to 1g/day) and acute Post-Traumatic Stress Disorder (PTSD). Her clinical downward spiral was precipitated by the recent emergence of repressed childhood sexual abuse memories, complicated by a miscarriage and the suicides of both a former partner and a close friend. This constellation of trauma led to street-sourcing ketamine and two involuntary psychiatric holds (5150) in the 15 days prior to admission.",
+      "Medical_Necessity_Narrative": "Residential 3.5 care is required due to acute psychiatric instability (ASAM Dimension 3) and withdrawal potential/PAWS (Dimension 1). The patient is currently experiencing 3:00 AM flashbacks, extreme sensory overstimulation (noise/light sensitivity), and 'meltdowns' that render her unable to safely manage symptoms in an outpatient setting. Her primary support system is compromised by a partner who is not currently sober, creating a high risk for immediate relapse upon discharge to a lower level of care."
+    },
+    "Dimension_Breakdown": {
+      "Dimension_1_Withdrawal_Potential": "High risk for Post-Acute Withdrawal Syndrome (PAWS) associated with heavy Ketamine use. Requiring Q6H vital signs and gabapentin titration for anxiety/detox support.",
+      "Dimension_2_Biomedical": "Complicated by an elevated autoimmune antibody and a healing wrist wound requiring monitoring for infection/self-neglect.",
+      "Dimension_3_Emotional_Behavioral": "Critical risk. Patient has active PTSD symptoms, including significant introversion, social withdrawal, and recurring nightmares/flashbacks. Recent 5150 holds demonstrate an inability to maintain safety independently.",
+      "Dimension_4_Readiness_to_Change": "Patient is in the 'Action' stage, seeking treatment due to a fear of being 'out of control,' though she is still highly susceptible to environmental triggers.",
+      "Dimension_5_Relapse_Potential": "Severe. The convergence of 'December trauma triggers' (anniversary dates) and street-sourced ketamine use indicates that without residential containment, the patient is unlikely to maintain sobriety.",
+      "Dimension_6_Recovery_Environment": "Unstable. Living alone with a non-sober boyfriend in the immediate vicinity provides a high-trigger environment for substance use."
+    },
+    "Reclaim_Milestones": {
+      "Initial_Stabilization": "Completed 72-hour observation; vital signs WNL; medication compliant.",
+      "Trauma_Integration": "Initial BPS completed. Identified childhood abuse and recent deaths as primary drivers of substance abuse.",
+      "Environment_Planning": "Aftercare plan initiated to address housing instability and sober support network."
+    },
+    "Clinical_Recommendation": "Continue Residential (3.5) status. Focus on medication stabilization (gabapentin/buspirone) and trauma-informed psychotherapy to address the 0300-0400 flashbacks before transitioning to PHP."
+  }
+}

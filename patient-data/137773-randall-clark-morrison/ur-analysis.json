@@ -1,0 +1,75 @@
+{
+  "patientId": "137773",
+  "payer": "Insurance Information Pending",
+  "planType": "Verification in Progress",
+  "deductibleMet": "Pending VOB Confirmation (Page 9)",
+  "oopMax": "Pending VOB Confirmation (Page 9)",
+  "clinicalCycle": {
+    "currentCycle": "Day 12 Assessment",
+    "nextReviewDate": "01/05/2026",
+    "notesSummary": [
+      "12/19/2025: Admitted to care team. Initial treatment plan and safety assessment completed within 24-hour window (Pages 7, 55).",
+      "12/22/2025: BPS completed by Sharon Johnson, LCSW. ASAM Dimensions 1-6 addressed. BDI-II administered with score of 20 (Pages 273, 284, 266).",
+      "12/24/2025: Initial clinical note documenting engagement in individual therapy. Coping skills and journaling assignments initiated (Page 323).",
+      "12/28/2025: First family visit occurred. Family relationship described as 'extremely toxic' in clinical documentation (Page 319).",
+      "12/31/2025: Continued engagement in treatment programming. MSE shows improved insight and active participation in recovery process (Page 316)."
+    ],
+    "barriersToStepDown": "Significant family triggers and unstable recovery environment. Family dynamics described as 'extremely toxic' requiring continued 24/7 structure and therapeutic intervention (Pages 284, 319).",
+    "reasonsForStepDown": "Active engagement in individual and group therapy, completion of outcome measures, and demonstrated medication compliance with psychiatric regimen.",
+    "remedies": "Continued residential treatment focusing on family boundary-setting, trauma processing, and development of independent coping strategies. Coordinate outpatient family therapy resources for post-discharge (Page 285)."
+  },
+  "reviews": [
+    {
+      "id": "UR-RCM-001",
+      "type": "Initial Admission Review",
+      "date": "12/19/2025",
+      "reviewer": "Nurse Practitioner (Page 121)",
+      "status": "Approved",
+      "days": 30,
+      "clinicalNotes": "Member meets ASAM criteria for residential level of care. All admission documentation complete including H&P, consents, ROIs, and UDS (Pages 13, 24, 65, 226).",
+      "criteriaMet": [
+        "ASAM Dimension 1-6 criteria met",
+        "Medical necessity for 24/7 structured environment",
+        "High-risk family dynamics requiring intensive intervention"
+      ],
+      "datesAuthorized": "12/19/2025 - 01/19/2026",
+      "authNumber": "Pending Insurance Verification"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "Alcohol Use Disorder (Primary diagnosis from substance use history)",
+      "Major Depressive Disorder (BDI-II score of 20 indicates moderate depression)",
+      "Generalized Anxiety Disorder (BAI administered, Page 266)"
+    ],
+    "precipitatingEvent": "Family crisis and toxic family dynamics leading to increased substance use and need for intensive residential treatment (Page 319).",
+    "mentalStatus": {
+      "appearance": "Well-groomed, appropriate dress",
+      "mood": "Anxious with depressive features",
+      "affect": "Congruent with mood, appropriate range",
+      "risk": "Safety assessment completed with safety contract and self-harm agreement signed. C-SSRS monitoring per policy (Pages 17, 44, 227)",
+      "judgement": "Fair to good, improving with treatment engagement",
+      "orientation": "Oriented to person, place, time, and situation"
+    },
+    "biomedicalConditions": "CURES Report reviewed. Fasting lab results documented. H&P completed on admission (Pages 105, 113, 121).",
+    "medications": "Psychiatric medication regimen per NP orders. Compliance documented in nursing progress notes (Page 121).",
+    "substanceUseHistory": "Alcohol use disorder with history documented in comprehensive substance use history section of BPS (Page 275).",
+    "treatmentHistory": "Prior treatment history documented. Current admission represents need for higher level of care due to family crisis and relapse risk (Page 285).",
+    "traumaHistory": {
+      "physical": false,
+      "sexual": false,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Stable housing documented",
+      "financial": "Employed at Cox, Castle, Nicholson (attorney position) (Page 65)",
+      "employment": "Currently employed, maintained employment despite substance use concerns",
+      "relationships": "Married. Family relationship described as 'extremely toxic' with significant relational strain (Pages 7, 319)",
+      "legal": "No current legal issues documented"
+    },
+    "moodSymptoms": "BDI-II score of 20 indicates moderate depression. BAI administered for anxiety assessment. Ongoing monitoring of mood symptoms in daily nursing notes (Page 266).",
+    "barriersToDischarge": "Extremely toxic family dynamics, high risk of relapse in home environment, incomplete family therapy work, and need for continued stabilization (Pages 284, 319).",
+    "treatmentPlanGoals": "Treatment plan reflects problems identified in BPS. Goals include developing coping skills, boundary-setting with toxic family members, relapse prevention planning, and maintaining sobriety. Member and counselor signatures obtained on treatment plan (Pages 285, 327, 328).",
+    "dischargePlan": "Step-down to PHP or IOP with continued individual therapy. Family therapy component recommended with appropriate boundaries. Connection to community-based support groups (Page 285)."
+  }
+}

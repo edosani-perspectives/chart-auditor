@@ -1,0 +1,89 @@
+{
+  "patientId": "137766",
+  "payer": "Blue Cross Blue Shield",
+  "planType": "PPO Gold Plus",
+  "deductibleMet": "$2,500 / $3,000",
+  "oopMax": "$1,800 / $6,000",
+  "clinicalCycle": {
+    "currentCycle": "Day 21 Assessment",
+    "nextReviewDate": "12/29/25",
+    "notesSummary": [
+      "Patient continues to engage actively in individual therapy sessions, demonstrating improved coping strategies for managing anxiety and depression triggers.",
+      "Group therapy participation has increased significantly, with patient taking on peer mentor role and offering support to newer residents.",
+      "Medication compliance remains excellent with mood stabilization noted. Sleep patterns have normalized from initial insomnia presentation."
+    ],
+    "barriersToStepDown": "Patient reports continued anxiety about returning to independent living environment. Family dynamics remain unresolved with ongoing conflict with spouse regarding financial responsibilities.",
+    "reasonsForStepDown": "Demonstrated medication compliance, active engagement in treatment programming, acquisition of new coping skills, and expressed readiness for increased independence in supervised setting.",
+    "remedies": "Intensive outpatient programming with family therapy component, weekly case management follow-up, and connection to community-based peer support groups before discharge."
+  },
+  "reviews": [
+    {
+      "id": "ur-1",
+      "type": "Initial",
+      "date": "12/08/25",
+      "reviewer": "Dr. Sarah Chen, MD",
+      "status": "Approved",
+      "days": 14,
+      "clinicalNotes": "Patient presented with severe depression with psychotic features following job loss and financial stressors. Demonstrates active suicidal ideation with plan requiring intensive stabilization and safety monitoring. Medical necessity clearly established for residential level of care.",
+      "criteriaMet": [
+        "Acute Safety Risk",
+        "Failed Outpatient",
+        "Medical Complexity"
+      ],
+      "datesAuthorized": "12/08/25 - 12/22/25",
+      "authNumber": "UR2025-44821"
+    },
+    {
+      "id": "ur-2",
+      "type": "Continued Stay",
+      "date": "12/22/25",
+      "reviewer": "Lisa Rodriguez, LCSW",
+      "status": "Approved",
+      "days": 7,
+      "clinicalNotes": "Continued progress with mood stabilization on medication regimen. Patient actively engaging in individual and group therapy with improved insight into triggers. Still requires 24/7 support structure as outpatient resources being coordinated.",
+      "criteriaMet": [
+        "Active Treatment Response",
+        "Discharge Planning",
+        "Safety Monitoring"
+      ],
+      "datesAuthorized": "12/22/25 - 12/29/25",
+      "authNumber": "UR2025-45190"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "Major Depressive Disorder, Severe with Psychotic Features",
+      "Generalized Anxiety Disorder",
+      "Alcohol Use Disorder, Moderate"
+    ],
+    "precipitatingEvent": "Job termination and subsequent financial crisis leading to marital conflict and increased alcohol use",
+    "mentalStatus": {
+      "appearance": "Well-groomed, appropriate dress",
+      "mood": "Euthymic",
+      "affect": "Mood congruent, increased range",
+      "risk": "Low risk - no current SI/HI",
+      "judgement": "Improving, adequate",
+      "orientation": "Person, place, time, situation"
+    },
+    "biomedicalConditions": "Hypertension (controlled), Type 2 Diabetes (well-managed)",
+    "medications": "Sertraline 100mg daily, Metformin 500mg BID, Lisinopril 10mg daily",
+    "substanceUseHistory": "Alcohol use escalated to 8-10 drinks daily prior to admission. 21 days sober.",
+    "treatmentHistory": "Previous outpatient therapy 2019-2020 for anxiety. No prior residential treatment.",
+    "traumaHistory": {
+      "physical": false,
+      "sexual": false,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "At risk of foreclosure, behind 3 months on mortgage",
+      "financial": "Severe - recent job loss, mounting debt",
+      "employment": "Unemployed x 2 months, actively job searching",
+      "relationships": "Marital strain, considering separation",
+      "legal": "No current legal issues"
+    },
+    "moodSymptoms": "Depression significantly improved from admission. Anxiety symptoms decreased with coping skill implementation.",
+    "barriersToDischarge": "Incomplete discharge planning, need for intensive outpatient placement, ongoing family/marital therapy needs",
+    "treatmentPlanGoals": "1) Maintain mood stability 2) Develop relapse prevention plan 3) Secure stable housing 4) Family therapy engagement",
+    "dischargePlan": "Intensive outpatient program 5x/week, weekly individual therapy, couples counseling, case management for housing assistance"
+  }
+}

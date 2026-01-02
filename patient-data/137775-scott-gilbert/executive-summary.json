@@ -1,0 +1,187 @@
+{
+  "patientId": "137775",
+  "name": "Scott Gilbert",
+  "mrNumber": "2025-125",
+  "careType": "Residential",
+  "admitDate": "11/29/2025",
+  "rings": {
+    "compliance": 85,
+    "process": 80,
+    "data": 70
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "ins-card",
+          "title": "Insurance Card Upload",
+          "description": "Actual image of the front/back of the insurance card is missing from the chart; data is only transcribed.",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "bps",
+          "title": "BPS Completion Delay",
+          "description": "Biopsychosocial Assessment was started on 12/01/2025 for an 11/29/2025 admission (exceeding the preferred 24-hour window).",
+          "status": "late"
+        },
+        {
+          "id": "safe-t",
+          "title": "Initial Safe-T Assessment",
+          "description": "The initial suicide risk screening (C-SSRS) was not documented until 12/01/2025.",
+          "status": "late"
+        },
+        {
+          "id": "note-sig",
+          "title": "Clinical Note Signature",
+          "description": "Initial clinical note for 12/01 was not finalized/signed until 12/02.",
+          "status": "late"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "demo",
+          "title": "Incomplete Demographics",
+          "description": "Fields for Race, Ethnicity, and Preferred Language are left blank on the Face Sheet.",
+          "status": "incomplete"
+        },
+        {
+          "id": "employer",
+          "title": "Employer Information",
+          "description": "Employer Name field is empty, though unemployment is mentioned in clinical notes.",
+          "status": "empty"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "consents",
+          "title": "Consent Documentation",
+          "description": "All admission consents, including photo and surveillance, are completed and signed.",
+          "status": "compliant"
+        },
+        {
+          "id": "rois",
+          "title": "Release of Information",
+          "description": "ROIs for Father, Mind Therapy Clinic, and The Hauz are fully executed and valid.",
+          "status": "compliant"
+        },
+        {
+          "id": "treatment",
+          "title": "Treatment Planning",
+          "description": "Master Treatment Plan created within 7 days and reflects BPS identified problems.",
+          "status": "compliant"
+        },
+        {
+          "id": "vob",
+          "title": "Verification of Benefits",
+          "description": "Aetna coverage was verified and active at the time of admission.",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (11/29)",
+      "events": [
+        {
+          "title": "Admission Intake",
+          "description": "Physical admission and initial abbreviated treatment plan started.",
+          "status": "success"
+        },
+        {
+          "title": "Medication Reconciliation",
+          "description": "Detox taper for Diazepam initiated by NP Barbieri.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Clinical (12/02)",
+      "events": [
+        {
+          "title": "BPS Assessment",
+          "description": "Biopsychosocial assessment completed by Sharon Johnson, LCSW.",
+          "status": "success"
+        },
+        {
+          "title": "Aftercare Planning",
+          "description": "Initial Aftercare Plan and Continuing Care Consultation completed.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 7: Weekly (12/06)",
+      "events": [
+        {
+          "title": "Master Treatment Plan",
+          "description": "MTP established with SMART goals for AUD and Anxiety.",
+          "status": "success"
+        },
+        {
+          "title": "Weekly Weight/UDS",
+          "description": "Required weekly vitals and toxicology screening performed.",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "PatientHeader": {
+      "patientId": "2025-125",
+      "patientName": "Scott Gilbert",
+      "mrNumber": "2025-125",
+      "admissionDate": "11/29/2025",
+      "primaryDiagnosis": "F10.20 Alcohol use disorder, Severe"
+    },
+    "ClinicalReclaim": {
+      "severityOfIllness": {
+        "usePatterns": "Progressed to 750ml tequila daily with beer and 1-3g cocaine binges; history of multi-day 'runs'.",
+        "functionalDeficits": "Recent termination from a 21-year career; finalized divorce; spent over $1M in active addiction; visitation with children restricted due to SoberLink failures.",
+        "medicalComplexity": "History of blackouts and significant trauma including a right drop foot and facial reconstruction from intoxicated falls."
+      },
+      "psychosocialReclaim": {
+        "traumaLens": "Unresolved shame/guilt from a high-speed vehicle accident while driving; feelings of worthlessness adopting his father's measurement of success (income).",
+        "relationalDistress": "Describes relationship with father and brother as highly judgmental and stressful; primary trigger for current low mood and anxiety."
+      },
+      "treatmentInterventionReclaim": {
+        "clinicalMilestones": "Successfully completed medically supervised Diazepam taper; initiated MAT (Acamprosate) for craving management.",
+        "ongoingRisk": "History of 5 previous treatment episodes since 2019 without sustained sobriety past 4.5 months; identifies 'airplane travel' as a high-risk trigger for cocaine use.",
+        "remainingBarriers": "Requires intensive cognitive restructuring (EMDR) for social and performance anxiety; lacks stable, non-toxic aftercare environment."
+      }
+    },
+    "UtilizationReview": {
+      "currentLevelOfCare": "Residential (LOC 3.5)",
+      "status": "Approved",
+      "lastReviewDate": "12/31/2025",
+      "nextReviewDate": "01/11/2026",
+      "clinicalRationale": "Continued residential care is medically necessary due to the high severity of the client's relapse cycle, significant history of failed lower levels of care, and the need to stabilize mood symptoms through increased Wellbutrin before transitioning to a community-based setting."
+    },
+    "DischargePerspective": {
+      "dischargeDisposition": "Return to Cornerstone SLE (San Francisco)",
+      "stepDownLevel": "Evening IOP (AMAR)",
+      "medicationPlan": "Stable on Wellbutrin XL 450mg, Acamprosate 333mg TID, and Gabapentin 100mg TID.",
+      "supportNetwork": "Sponsor, AA community, and reconciled connection with children."
+    }
+  }
+}

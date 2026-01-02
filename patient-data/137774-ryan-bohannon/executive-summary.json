@@ -1,0 +1,177 @@
+{
+  "patientId": "137774",
+  "name": "Ryan Bohannon",
+  "mrNumber": "2025-124",
+  "careType": "Residential 3.5 (Transitioned from Detox 3.7)",
+  "admitDate": "11/28/2025",
+  "rings": {
+    "compliance": 94,
+    "process": 82,
+    "data": 70
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "CA-01",
+          "title": "H&P and Medical Clearance",
+          "description": "History & Physical completed 11/28/25; Medical Clearance issued 11/29/25.",
+          "status": "compliant"
+        },
+        {
+          "id": "CA-02",
+          "title": "Admission UDS/BAC",
+          "description": "BAC of 0.26 and (+) EtG UDS documented on admission day.",
+          "status": "compliant"
+        },
+        {
+          "id": "CA-03",
+          "title": "Detox-to-RTC Transition",
+          "description": "Clinical transition from Detox 1/2 to Residential appropriately documented after CIWA scores stabilized.",
+          "status": "compliant"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "PT-01",
+          "title": "Biopsychosocial Timing",
+          "description": "Admitted 11/28 (Friday); BPS not completed until 12/01 (Monday). Exceeds 24-hour standard.",
+          "status": "late"
+        },
+        {
+          "id": "PT-02",
+          "title": "Peer/MAT Initial Note",
+          "description": "Initial MAT monitoring note not present within 72 hours of admission.",
+          "status": "late"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "DH-01",
+          "title": "Demographic Gaps",
+          "description": "Race, Ethnicity, and Pronoun fields are blank on the Face Sheet.",
+          "status": "incomplete"
+        },
+        {
+          "id": "DH-02",
+          "title": "Employment Data",
+          "description": "Employer name not documented; field left as 'n/a'.",
+          "status": "empty"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "CS-01",
+          "title": "Medication Taper Logs",
+          "description": "Highly detailed Diazepam taper logs with VS/CIWA markers for every dose administered.",
+          "status": "compliant"
+        },
+        {
+          "id": "CS-02",
+          "title": "Risk Management",
+          "description": "Safety contract and C-SSRS rescreening consistently present in weekly clinical notes.",
+          "status": "compliant"
+        },
+        {
+          "id": "CS-03",
+          "title": "Clinical Integration",
+          "description": "Individual and Conjoint sessions clearly link back to Master Treatment Plan goals.",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (11/28)",
+      "events": [
+        {
+          "title": "Initial Medical Assessment",
+          "description": "Admission BAC (0.26) and H&P completed by Ellen Barbieri, NP.",
+          "status": "success"
+        },
+        {
+          "title": "Safety & Consents",
+          "description": "Safety contract and all admission consents signed by patient.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Clinical (12/01)",
+      "events": [
+        {
+          "title": "Biopsychosocial",
+          "description": "Comprehensive BPS assessment finalized by Lori Sparrow, LMFT.",
+          "status": "success"
+        },
+        {
+          "title": "Level of Care Advance",
+          "description": "Patient advanced to RTC from Detox after 72-hour observation.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 7+: Weekly Management",
+      "events": [
+        {
+          "title": "Master Treatment Plan",
+          "description": "MTP established on 12/04 covering AUD, Anxiety, and Grief.",
+          "status": "success"
+        },
+        {
+          "title": "Ongoing Compliance",
+          "description": "Weekly UDS and daily nursing progress notes maintained through discharge.",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "clinical_journey_insights": {
+      "narrative_arc": "Ryan's journey is defined by a high-functioning career in sales contrasted against a 20-year history of polysubstance abuse and profound familial loss. Admitted in a state of crisis following a relapse just three weeks after a previous treatment episode, his journey reflects a move from 'escapism' to a confrontational processing of grief. The clinical focus shifted from physical stabilization (detox) to addressing the 'backlog of feelings' associated with the deaths of his twin and older brother within a 10-day span in 2023.",
+      "core_clinical_dynamic": "The intersection of 'survival guilt' and 'perfectionism.' Ryan's reliance on alcohol and stimulants (Vyvanse/Adderall) served as an emotional buffer against a dysfunctional family origin and the specific trauma of finding his mother after a suicide attempt at age 8."
+    },
+    "severity_of_illness": {
+      "substance_use_profile": "Severe Alcohol Use Disorder, Other Psychoactive Substance Use (Kratom), and Stimulant Use Disorder (Non-prescribed Adderall/Vyvanse).",
+      "medical_acuity": "High physiological dependence evidenced by an admission BAC of 0.26 and CIWA scores necessitating a medically monitored Diazepam taper. Experienced 'brain zaps' and hypertensive readings during early residential phase.",
+      "psychiatric_acuity": "Major Depressive Disorder (recurrent) and Generalized Anxiety. Presence of 'fleeting thoughts' of self-harm with a firearm for six months prior to admission, though he remained contractually safe during treatment.",
+      "relapse_potential": "ASAM Dimension 5 rated as '4-Severe' due to a history of relapsing within 48 hours of previous discharges."
+    },
+    "treatment_milestones": {
+      "stabilization": "Completed acute withdrawal management and a 4-step reduced Diazepam taper by 12/01/2025.",
+      "physical_regulation": "Incorporated daily 'cold plunges' in the facility pool to manage autonomic nervous system dysregulation and anxiety.",
+      "grief_work": "Transitioned from emotional numbness to active processing of his twin brother's death through grief workbook exercises and 'Goodbye Letters' to his drug of choice.",
+      "relational_repair": "Participated in a tearful conjoint session with his wife on 12/31/2025, moving from avoidance to taking responsibility for his emotional unavailability."
+    },
+    "reclamation_narrative": {
+      "shift_in_perspective": "Ryan moved from a state of 'angst and self-loathing' (documented on 12/08) to a state of 'optimistic and energized' (12/10). He began to identify relapse not as a sudden event but as a 'series of small permissions' regarding his thoughts and behaviors.",
+      "growth_markers": "Successful navigation of 'Family Day' and a holiday season within a residential setting. He demonstrated a 90% engagement rate in therapeutic groups, eventually providing positive feedback and validation to peers during graduation ceremonies."
+    },
+    "patient_voice": {
+      "admission_vulnerability": "\"I just got married and I'm ruining my life again. I want to get to the root cause of my drinking.\"",
+      "self_affirmation": "\"I want to be the man I am meant to be; I want to stand tall again and live in my values.\"",
+      "recovery_mantra": "\"Stay positive and not beat myself up.\"",
+      "insight_on_grief": "Described the loss of his twin as a \"huge hole of emptiness\" and realized he had been \"shutting his grief away\" for two years."
+    }
+  }
+}

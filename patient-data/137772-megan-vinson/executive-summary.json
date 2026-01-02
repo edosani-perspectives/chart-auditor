@@ -1,0 +1,234 @@
+{
+  "patientId": "137772",
+  "name": "Megan Vinson",
+  "mrNumber": "2025-128",
+  "careType": "Detox / Residential",
+  "admitDate": "12/08/2025",
+  "rings": {
+    "compliance": 90,
+    "process": 85,
+    "data": 82
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "docs",
+          "title": "Core Documentation Complete",
+          "description": "All critical documents present: H&P, BPS, MTP signed and closed, Pre-Admission Assessment, VOB, and medical records attached (Pages 16, 12, 133-139, 58-60).",
+          "status": "compliant"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "bps",
+          "title": "Biopsychosocial Assessment",
+          "description": "BPS completed 12/10/2025, 2 days after admission on 12/08/2025. Required: within 24 hours (Page 283).",
+          "status": "late"
+        },
+        {
+          "id": "family",
+          "title": "Family Contact Protocol",
+          "description": "Family not contacted within 72 hours per client request. Client wants to delay son's visit until she feels emotionally stronger. Clinical boundary documented (Pages 382, 384).",
+          "status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "demo",
+          "title": "Demographic Gaps",
+          "description": "Pronouns, Race, and Ethnicity fields are blank on face sheet. Gender Identity (Female) and Preferred Language (English) are documented (Pages 9, 16).",
+          "status": "empty"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "legal",
+          "title": "Consents & ROIs",
+          "description": "All treatment consents and ROIs completed and signed: Emergency, Honeycomb, and Avery Lane (Pages 18, 27, 66, 104, 106, 108).",
+          "status": "compliant"
+        },
+        {
+          "id": "med",
+          "title": "Medical Documentation",
+          "description": "Pre-admission assessment, VOB, H&P, CURES Report, Fasting Labs, and UDS all present and complete (Pages 16, 12, 133, 134, 139, 237).",
+          "status": "compliant"
+        },
+        {
+          "id": "treatment",
+          "title": "Treatment Planning",
+          "description": "Initial treatment plan started within 24 hours on 12/08. MTP closed by John Foord, LMFT with SMART goals reflecting personal trauma recovery goals. Member and counselor signatures obtained (Pages 58-60, 280-290).",
+          "status": "compliant"
+        },
+        {
+          "id": "safety",
+          "title": "Safety Protocols",
+          "description": "Safe-T Assessment completed within 24 hours. Safety Contract signed 12/08. C-SSRS rescreen per policy with daily nursing assessments (Pages 20, 47, 231).",
+          "status": "compliant"
+        },
+        {
+          "id": "clinical",
+          "title": "Clinical Documentation",
+          "description": "Initial clinical note completed 12/10 within 7-day requirement. Weekly notes present (12/10, 11, 15, 16, 17, 19, 22, 23, 26, 31), all completed same day of service (Pages 365-397).",
+          "status": "compliant"
+        },
+        {
+          "id": "outcomes",
+          "title": "Outcome Measures",
+          "description": "PHQ-9 and GAD-7 administered. Daily nursing monitoring updates outcome tracking (Pages 59, 301).",
+          "status": "compliant"
+        },
+        {
+          "id": "peer",
+          "title": "Peer Recovery Services",
+          "description": "Peer Recovery initial note completed within 72 hours on 12/08. Daily peer closing notes provided by Michael Galarneau and Michael Whitley (Pages 305-363).",
+          "status": "compliant"
+        },
+        {
+          "id": "case-mgmt",
+          "title": "Case Management",
+          "description": "Needs Assessment completed within 72 hours on 12/10. Comprehensive aftercare planning addressing housing instability (Page 392).",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/08/2025)",
+      "events": [
+        {
+          "title": "Admission & Consents",
+          "description": "Member admitted to care team. All consents completed and signed. Assigned to John Foord, LMFT and Serena Jones. Insurance card and photo ID present (Pages 9, 18, 27, 66).",
+          "status": "success"
+        },
+        {
+          "title": "Toxicology & Safety",
+          "description": "UDS completed on admission. Safe-T Assessment and Safety Contract signed (Pages 237, 20, 47).",
+          "status": "success"
+        },
+        {
+          "title": "Initial Treatment Plan & H&P",
+          "description": "Abbreviated treatment plan initiated within 24-hour window. H&P performed by Ellen Barbieri, NP (Pages 58, 139).",
+          "status": "success"
+        },
+        {
+          "title": "Peer Recovery Initiation",
+          "description": "Initial peer recovery note completed within 72-hour requirement (Page 305).",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 2: Clinical (12/10/2025)",
+      "events": [
+        {
+          "title": "Biopsychosocial Assessment",
+          "description": "LATE: BPS completed by Kristin Furuichi. Required within 24 hours (Page 283).",
+          "status": "fail"
+        },
+        {
+          "title": "Initial Clinical Note",
+          "description": "First individual psychotherapy note completed by John Foord, LMFT. Completed same day of service (Page 397).",
+          "status": "success"
+        },
+        {
+          "title": "Case Management Assessment",
+          "description": "Needs Assessment completed within 72-hour window. Addresses housing instability and discharge planning (Page 392).",
+          "status": "success"
+        },
+        {
+          "title": "Outcome Measures",
+          "description": "PHQ-9 and GAD-7 administered to establish baseline mental health metrics (Pages 59, 301).",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 7+: Ongoing Treatment",
+      "events": [
+        {
+          "title": "Weekly Clinical Notes",
+          "description": "Regular clinical notes present (12/10, 11, 15, 16, 17, 19, 22, 23, 26, 31). All completed same day of service. Focus on CPTSD and emotional regulation (Pages 365-389).",
+          "status": "success"
+        },
+        {
+          "title": "Master Treatment Plan Review",
+          "description": "MTP closed with SMART goals reflecting member's personal trauma recovery goals. Addresses housing barriers and relapse risk (Pages 280-290).",
+          "status": "success"
+        },
+        {
+          "title": "Daily Peer Support",
+          "description": "Ongoing peer recovery notes documenting group participation and CPTSD workbook assignments (Pages 305-363).",
+          "status": "success"
+        },
+        {
+          "title": "Physician Progress Notes",
+          "description": "Regular medical monitoring documented throughout treatment episode (Pages 157, 159, 161, 163).",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "patient_name": "Megan Vinson",
+    "mr_number": "2025-128",
+    "theme": "Internal Transition: From Victimhood to Empowerment",
+    "the_narrative": {
+      "original_state": "Upon admission, the client presented as disheveled, disoriented, and deeply entrenched in a 'victim-based' identity. She conceptualized her former partner as an 'addiction' and her drinking as a 'byproduct of all the trauma,' describing a sense of being 'underwater' and 'trapped' by her past.",
+      "reclaimed_state": "By the end of the clinical cycle, Megan moved toward a self-empowered stance. She began conceptualizing her recovery as an 'internal transition,' explicitly seeking to reclaim personal autonomy and a version of herself she remembers from before her marriage—one who was competent and in control."
+    },
+    "clinical_milestones": [
+      {
+        "milestone": "Somatic Awareness",
+        "description": "Transitioned from experiencing trauma as physical 'throat constriction' and 'shallow breathing' to actively using trauma-focused yoga and guided breathwork to 'vocalize' and release stored tension.",
+        "outcome": "Improved interoceptive awareness and emotional regulation."
+      },
+      {
+        "milestone": "Cognitive Reframing",
+        "description": "Moved from viewing herself as 'stuck' to viewing her anger toward her ex-partner as 'earned' and valid, allowing her to process fear without resorting to substance use for numbing.",
+        "outcome": "Reduction in shame-based rumination."
+      },
+      {
+        "milestone": "Spiritual Connection",
+        "description": "Identified a personal, 'universal version' of spirituality (influenced by Thich Nhat Hanh), replacing feelings of isolation with a sense of being 'connected' to a higher power for the first time in years.",
+        "outcome": "Increased hope and existential stability."
+      }
+    ],
+    "strengths_reclaimed": [
+      "Determination and Goal-Orientation",
+      "Resourcefulness in Career (Finance/Real Estate background)",
+      "Capacity for Deep Introspection",
+      "Resilience as a Parent and Pet Owner",
+      "Pro-social Peer Engagement"
+    ],
+    "patient_voice": {
+      "key_quote_1": "I want this trauma out... it's like I have a fishing hook in me and I just want to pull it out.",
+      "key_quote_2": "I'm tired of carrying around all this other stuff. I want to be the whole human I want to be.",
+      "key_quote_3": "I need a safe and supportive setting to engage in trauma therapy... I'm looking forward to being happy again."
+    },
+    "reclamation_plan": {
+      "focus": "Addressing the 'bricks' of trauma through continued CPTSD workbook application.",
+      "objective": "Establish an independent life free from the ex-partner's control, focusing on 'peace and calm' through mortgage refinancing and a stable recovery environment (SLE).",
+      "next_step": "Step-down to Avery Lane or Honeycomb Wellness to bridge residential insights into real-world autonomy."
+    }
+  }
+}

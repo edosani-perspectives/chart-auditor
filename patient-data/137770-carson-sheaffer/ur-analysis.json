@@ -1,0 +1,97 @@
+{
+  "patientId": "137770",
+  "payer": "California Blue Shield",
+  "planType": "PPO (Subscriber ID: TIM170086952)",
+  "deductibleMet": "$0 / $750 (Page 7)",
+  "oopMax": "$0 / $6,750 (Page 7)",
+  "clinicalCycle": {
+    "currentCycle": "Day 2 Residential Assessment",
+    "nextReviewDate": "01/05/2026 (Internal Weekly Review Cycle)",
+    "notesSummary": [
+      "Patient admitted 12/29/2025 with BAC of 0.21. Started on standard Diazepam (Valium) taper for severe Alcohol Use Disorder (Page 95).",
+      "Nurse Practitioner Barbieri cleared patient for dual diagnosis residential care (Page 100).",
+      "Therapy note from 12/30 highlights acute shame regarding drinking during transport to the facility and deep-seated avoidance-based coping (Page 180)."
+    ],
+    "barriersToStepDown": "Significant risk of withdrawal complications (Dimension 1); high relapse risk due to decades-long pattern of use (Dimension 5); severe anxiety symptoms and emotional suppression requiring 24-hour structure (Dimension 3). (Pages 170-171)",
+    "reasonsForStepDown": "Currently none; patient is in active medical detoxification and lacks independent coping skills for sobriety (Page 172).",
+    "remedies": "Completion of 5-day medical detox followed by 30-day residential stabilization focusing on relapse prevention and anxiety management (Page 62)."
+  },
+  "reviews": [
+    {
+      "id": "REV-2025-01",
+      "type": "Initial Admission Review",
+      "date": "12/29/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 30,
+      "clinicalNotes": "Patient meets ASAM 3.5 criteria due to high tolerance, impaired control, and risk of withdrawal seizures (Page 170).",
+      "criteriaMet": [
+        "Dimension 1: Acute Intoxication/Withdrawal Potential",
+        "Dimension 3: Emotional/Behavioral/Cognitive",
+        "Dimension 5: Relapse/Continued Use Potential"
+      ],
+      "datesAuthorized": "12/29/2025 - 02/03/2026",
+      "authNumber": "N/A"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "F10.20 Alcohol use disorder, Severe",
+      "F12.10 Cannabis abuse, uncomplicated",
+      "Obsessive Compulsive Disorder (OCD)"
+    ],
+    "precipitatingEvent": "DUI offense in November 2025 and marital strain regarding chronic dishonesty about alcohol use (Page 160).",
+    "mentalStatus": {
+      "appearance": "Unkempt, well-nourished (Page 74); Casual appearance (Page 180)",
+      "mood": "Desperate, anxious, angry (Page 74)",
+      "affect": "Anxious, agitated, tearful during intake (Page 74, 180)",
+      "risk": "No Suicidal or Homicidal Ideation (Page 180)",
+      "judgement": "Poor; notably impaired impulse control (Page 180)",
+      "orientation": "Alert and oriented to person, place, time, and situation (Page 180)"
+    },
+    "biomedicalConditions": "Hypertension (186/103 on admission), GERD (Page 73, 91).",
+    "medications": "Diazepam (Valium) Taper, Fluoxetine (Prozac) 20mg, Famotidine 20mg, Gabapentin 300mg, Hydroxyzine 25mg (Page 99).",
+    "substanceUseHistory": "Gin: 2 pints to 2 liters daily since 2017; Marijuana: Joint or edibles daily for sleep (Page 162).",
+    "treatmentHistory": "2021 IOP (On Track) - completed but relapsed; Juvenile detention for Minor in Possession at age 17 (Page 163).",
+    "traumaHistory": {
+      "physical": true,
+      "sexual": false,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Stable (Resides with wife and two children in Medford, OR)",
+      "financial": "Stable; currently employed (Page 168)",
+      "employment": "Forklift Operator for 13 years; at risk of losing job due to DUI/License suspension (Page 168)",
+      "relationships": "Relational strain with wife; avoidant communication style (Page 161)",
+      "legal": "Pending DUI charges from December 2025 (Page 167)"
+    },
+    "moodSymptoms": "Anxiety, depression, rumination, and chronic irritability when sober (Page 160).",
+    "barriersToDischarge": "Cognitive rigidity, minimization of emotional impact, and lack of support system outside of immediate family (Page 171).",
+    "treatmentPlanGoals": "Complete medical detox, establish therapeutic rapport, develop non-avoidant coping skills, and maintain long-term abstinence (Pages 36-37).",
+    "dischargePlan": "Step down to Partial Hospitalization (PHP) or Outpatient (IOP) in Oregon upon successful completion of 30-day residential program (Page 154)."
+  },
+  "perspectives_reclaim": {
+    "clinical_insight": "The patient presents with severe physiological and psychological dependence, evidenced by his inability to maintain abstinence even during transit to the facility (consuming alcohol in his father's presence). This highlights a critical failure of impulse control and a high degree of 'shame-based' avoidance coping. His history of 'masking' symptoms indicates that while he may appear compliant, there is a significant risk of internalizing distress which has historically led to secretive relapse.",
+    "level_of_care_justification": "Residential Level 3.5 is medically necessary due to the severity of the patient's withdrawal risk (Dimension 1), complicated by a history of untreated hypertension (186/103 on admit). The 24-hour structure is required to interrupt a decades-long cycle of emotional suppression and to provide the containment necessary to address co-occurring OCD and anxiety symptoms that the patient is currently unable to manage in a less restrictive environment.",
+    "growth_areas_reclaim": [
+      {
+        "target": "Avoidant Communication",
+        "description": "Transition from conflict-avoidant/superficial interactions to vulnerable and direct emotional expression with primary supports (wife)."
+      },
+      {
+        "target": "Impulse Regulation",
+        "description": "Move beyond intrinsic motivation to develop concrete 'unstructured time' coping strategies, as these are his primary relapse triggers."
+      },
+      {
+        "target": "Biomedical Stabilization",
+        "description": "Establish a baseline for blood pressure management once the diazepam taper is complete, to rule out chronic hypertension versus withdrawal-induced spikes."
+      }
+    ],
+    "strengths_to_leverage": [
+      "High functional capacity (13 years of continuous employment).",
+      "Strong familial protective factors (unconditional support from spouse).",
+      "Internalized desire for change (entered treatment by personal choice, not just legal mandate)."
+    ],
+    "discharge_integrity_focus": "The primary focus for successful discharge must be the 're-socialization' of the family unit. Given the children's habit of disengaging into technology during his intoxication, family-focused therapy is essential to prevent a return to the maladaptive home environment."
+  }
+}

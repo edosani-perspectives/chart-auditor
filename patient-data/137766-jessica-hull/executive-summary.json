@@ -1,0 +1,155 @@
+{
+  "patientId": "137766",
+  "name": "Jessica Hull",
+  "mrNumber": "2025-127",
+  "careType": "Residential",
+  "admitDate": "12/04/2025",
+  "rings": {
+    "compliance": 45,
+    "process": 79,
+    "data": 50
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "mtp",
+          "title": "Master Treatment Plan",
+          "description": "Document completely absent. No goals or signatures.",
+          "status": "missing"
+        },
+        {
+          "id": "itp",
+          "title": "Initial Treatment Plan",
+          "description": "Required within 24hrs. Not found.",
+          "status": "missing"
+        },
+        {
+          "id": "vob",
+          "title": "Verification of Benefits",
+          "description": "Source document missing from chart.",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "outcome",
+          "title": "Outcome Measures (BDI)",
+          "description": "Completed Day 8. Req: < 72 Hours.",
+          "status": "late"
+        },
+        {
+          "id": "aftercare",
+          "title": "Initial Aftercare Plan",
+          "description": "Completed Day 11. Req: < 72 Hours.",
+          "status": "late"
+        },
+        {
+          "id": "peer",
+          "title": "Peer Integration",
+          "description": "No Peer Goal found in Master Plan.",
+          "status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "demo",
+          "title": "Demographics",
+          "description": "Missing: Race, Ethnicity, Pronouns.",
+          "status": "empty"
+        },
+        {
+          "id": "cards",
+          "title": "ID & Insurance Cards",
+          "description": "Images of physical cards are missing.",
+          "status": "upload"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "med",
+          "title": "Medical / Psych",
+          "description": "H&P, UDS, Detox Protocols verified.",
+          "status": "compliant"
+        },
+        {
+          "id": "clinical",
+          "title": "Clinical Notes",
+          "description": "Weekly Summaries present.",
+          "status": "compliant"
+        },
+        {
+          "id": "legal",
+          "title": "Legal",
+          "description": "Consents & ROIs fully signed.",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/04)",
+      "events": [
+        {
+          "title": "Admission Consents",
+          "description": "All legal consents signed.",
+          "status": "success"
+        },
+        {
+          "title": "Initial Tx Plan",
+          "description": "MISSING: Not initiated within 24hr.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Clinical (12/07)",
+      "events": [
+        {
+          "title": "Outcome Measures",
+          "description": "LATE: BDI/BAI not found in window.",
+          "status": "fail"
+        },
+        {
+          "title": "Aftercare Plan",
+          "description": "LATE: Discharge strategy missing.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "label": "Day 7: Weekly (12/11)",
+      "events": [
+        {
+          "title": "Weekly Clinical Note",
+          "description": "Progress documented.",
+          "status": "success"
+        },
+        {
+          "title": "Master Treatment Plan",
+          "description": "CRITICAL: No MTP on record.",
+          "status": "fail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "patientId": "137771",
+  "name": "Lily Leo",
+  "mrNumber": "2025-130",
+  "careType": "Detox / Residential",
+  "admitDate": "12/21/2025",
+  "rings": {
+    "compliance": 92,
+    "process": 80,
+    "data": 85
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "critical",
+      "items": [
+        {
+          "id": "docs",
+          "title": "Major Document Presence",
+          "description": "All core clinical documents including H&P, BPS, and Master Treatment Plan are present and signed.",
+          "status": "compliant"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "note-delay",
+          "title": "Clinical Note Finalization",
+          "description": "The initial individual progress note for the 12/24 session was not finalized/signed until 12/31 (Page 319).",
+          "status": "late"
+        },
+        {
+          "id": "family",
+          "title": "Family Session Documentation",
+          "description": "While family contact and ROIs are present, specific family therapy sessions are not yet documented; focus remained on detox stabilization (Page 251).",
+          "status": "incomplete"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "demo",
+          "title": "Demographic Gaps",
+          "description": "Face sheet lacks entries for Race, Ethnicity, and Preferred Language (Page 7).",
+          "status": "empty"
+        },
+        {
+          "id": "cards",
+          "title": "Missing Document Uploads",
+          "description": "Physical scans of the Driver's License and Insurance Card are missing from the chart despite data being manually entered (Page 60, 67).",
+          "status": "upload"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "screening",
+          "title": "Admission Screening",
+          "description": "UDS and Breathalyzer were completed immediately upon admission (Page 222).",
+          "status": "compliant"
+        },
+        {
+          "id": "safety",
+          "title": "Safety Protocols",
+          "description": "Safety contract and Self-Harm agreement were signed on the day of admission (Page 51).",
+          "status": "compliant"
+        },
+        {
+          "id": "itp",
+          "title": "Initial Treatment Planning",
+          "description": "Initial Abbreviated Treatment Plan for Detox level 1 was established on Day 0 (Page 93).",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/21/2025)",
+      "events": [
+        {
+          "title": "Intake & Consents",
+          "description": "Member completed all admission consents and was assigned to Stewart Bryant, LMFT (Page 7).",
+          "status": "success"
+        },
+        {
+          "title": "Admission UDS",
+          "description": "UDS positive for THC; Breathalyzer 0.00 (Page 99).",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 1-2: Clinical (12/22/2025)",
+      "events": [
+        {
+          "title": "Biopsychosocial Assessment",
+          "description": "BPS completed by Stewart Bryant, LMFT (Page 254).",
+          "status": "success"
+        },
+        {
+          "title": "Continuing Care Consultation",
+          "description": "Initial aftercare needs assessment and referral planning initiated (Page 320).",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 7: Weekly (12/28/2025)",
+      "events": [
+        {
+          "title": "Master Treatment Plan Review",
+          "description": "MTP reviewed; patient stable at Residential level of care (Page 63).",
+          "status": "success"
+        },
+        {
+          "title": "Clinical Documentation",
+          "description": "Weekly progress notes present, though one signature was delayed (Page 313).",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "identity_profile": {
+      "patient_name": "Lily Leo",
+      "professional_background": "PhD in Behavioral Neuroscience; Freelance Writer on Neuroplasticity",
+      "strengths": "Highly intellectual, creative (writer/knitter), motivated to remain in treatment for 30+ days, resilient history of recovering from physical paralysis (Page 127, 312)."
+    },
+    "the_struggle": {
+      "primary_conflict": "Severe Nitrous Oxide dependence used as a maladaptive coping mechanism for treatment-resistant depression and anxiety (Page 20).",
+      "physical_toll": "Peripheral neuropathy and B-12 deficiency leading to historical loss of ambulation and current unsteady gait with +3 bilateral pitting edema (Page 127, 158).",
+      "systemic_toll": "Active separation/divorce, CPS involvement, and an ongoing custody battle for children aged 6 and 8 (Page 20, 127)."
+    },
+    "clinical_remediation": {
+      "stabilization_milestones": [
+        "Successful transition from acute Detox Level 1 to Residential status (Page 246).",
+        "Improvement in cognitive clarity: from brief 'yes/no' responses to engaging in deep trauma processing sessions (Page 251, 319).",
+        "Medical stabilization of bilateral edema via compression stockings and referral to PCP (Page 313)."
+      ],
+      "therapeutic_focus": "Processing a history of childhood trauma and emotional neglect; addressing the 'humiliation' of relapse in the context of her academic background in neuroscience (Page 312, 321)."
+    },
+    "path_to_reclamation": {
+      "immediate_goals": [
+        "Establishment of Dual Power of Attorney with her father to manage legal/parental responsibilities (Page 134).",
+        "Consistent use of assistive devices (cane) and proper footwear to prevent falls (Page 231).",
+        "Stabilization on a medication regimen of Wellbutrin XL and Gabapentin, transitioning away from inhalant use (Page 135)."
+      ],
+      "aftercare_vision": "Step down to IOP with a heavy focus on EMDR and Somatic therapy; engagement with a Sober Coach (Roland Williams) and consistent AA/NA attendance (Page 321, 327)."
+    },
+    "auditor_summary": "Patient is a high-functioning professional whose addiction caused a catastrophic physical and social collapse. Clinical documentation reflects a high level of medical necessity due to physical fall risks and complex legal/familial stressors. Reclamation is evident in her shift from an 'unkempt' admission state to active participation in group sessions and planning for a stable, sober future for the sake of her children."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "patientId": "137775",
+  "payer": "Aetna",
+  "planType": "Commercial PPO (Active)",
+  "deductibleMet": "$1,000.00 / $1,000.00",
+  "oopMax": "$4,000.00 / $4,000.00",
+  "clinicalCycle": {
+    "currentCycle": "Day 32 Residential Care",
+    "nextReviewDate": "01/11/2026",
+    "notesSummary": [
+      "Initial assessment focused on acute withdrawal management and stabilization (11/29-12/01).",
+      "Engaged in processing family dynamics and identifying 'defective' self-narrative (12/10).",
+      "Increased Wellbutrin dosage to 450mg to address persistent depression/anxiety (12/17).",
+      "Completed Relapse Prevention Workbook modules for internal and external triggers (12/24).",
+      "Extended stay by one week to evaluate SLE and IOP placements (12/31)."
+    ],
+    "barriersToStepDown": "High relapse risk due to history of five previous treatment episodes. Persistent social/performance anxiety necessitating EMDR initiation. Unresolved trauma/shame regarding relationship with children and father.",
+    "reasonsForStepDown": "Medication compliance with MAT (Acamprosate) and antidepressants. Successful completion of Relapse Prevention Workbook Week 1-3. Engagement in alumni groups and sober support planning.",
+    "remedies": "Transition to AMAR for evening IOP and return to Cornerstone SLE in San Francisco."
+  },
+  "reviews": [
+    {
+      "id": "AUTH-001",
+      "type": "Initial Authorization",
+      "date": "12/03/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 12,
+      "clinicalNotes": "Approved for Residential 3.5 based on severe AUD and Cocaine Use Disorder with withdrawal risk.",
+      "criteriaMet": [
+        "ASAM Level 3.5",
+        "Severe Alcohol Use Disorder",
+        "Severe Cocaine Use Disorder",
+        "Withdrawal management required"
+      ],
+      "datesAuthorized": "11/29/2025 - 12/10/2025",
+      "authNumber": "251202503023"
+    },
+    {
+      "id": "AUTH-002",
+      "type": "Continued Stay",
+      "date": "12/12/2025",
+      "reviewer": "Ellen Barbieri, NP",
+      "status": "Approved",
+      "days": 19,
+      "clinicalNotes": "Continued stay approved for clinical stabilization and relapse prevention planning.",
+      "criteriaMet": [
+        "Clinical stabilization ongoing",
+        "Relapse prevention planning",
+        "Discharge coordination needed"
+      ],
+      "datesAuthorized": "12/11/2025 - 12/29/2025",
+      "authNumber": "251202503023"
+    }
+  ],
+  "assessment": {
+    "diagnoses": [
+      "F10.20 Alcohol use disorder, Severe",
+      "F14.20 Cocaine use disorder, Severe",
+      "F33.9 Major depressive disorder, recurrent, unspecified",
+      "F41.1 Generalized anxiety disorder"
+    ],
+    "precipitatingEvent": "Termination from 21-year career in July 2025 and finalization of divorce, followed by multi-day binge (750ml tequila daily and 1-3g cocaine).",
+    "mentalStatus": {
+      "appearance": "Well-groomed, casual",
+      "mood": "Sad, anxious, hopeful",
+      "affect": "Restricted, blunted",
+      "risk": "No active SI/HI plan or intent; denied on all 24-hour screenings",
+      "judgement": "Good/Fair",
+      "orientation": "Oriented x4"
+    },
+    "biomedicalConditions": "High cholesterol; history of left orbital/sinus fractures and 2010 right drop foot following blackout.",
+    "medications": "Wellbutrin XL (450mg total), Acamprosate (333mg TID), Gabapentin (100mg TID), Clonidine (0.1mg PRN), Melatonin (10mg PRN)",
+    "substanceUseHistory": "Began drinking at age 17; Cocaine use started age 34. Progression to daily tequila and multi-gram cocaine binges.",
+    "treatmentHistory": "Bayside (2019 IOP, 2020 RTC), Meadow AZ (2022 RTC), Serenity Knolls (2024 RTC), Olympia House (2025 RTC).",
+    "traumaHistory": {
+      "physical": true,
+      "sexual": false,
+      "emotional": true
+    },
+    "psychosocialStressors": {
+      "housing": "Currently residing at Cornerstone SLE; bed held for return.",
+      "financial": "Stable but noted 'spent millions' during active addiction.",
+      "employment": "Unemployed; terminated 07/2025.",
+      "relationships": "Divorced; primary conflict with father and brother; visitation with children conditional on sobriety.",
+      "legal": "Denies current charges."
+    },
+    "moodSymptoms": "Rumination, Worthlessness, Guilt, Difficulty with self-expression without substances",
+    "barriersToDischarge": "Incomplete EMDR for anxiety; need for finalized SLE placement in SF.",
+    "treatmentPlanGoals": "Maintain total abstinence. Accept powerlessness over substances. Acquire recovery skills for long-term sobriety. Improve quality of life and satisfaction.",
+    "dischargePlan": "Discharge on 01/11/2026 to Cornerstone SLE with AMAR evening IOP and continued medication management by One Medical."
+  },
+  "perspectives_reclaim": {
+    "PatientHeader": {
+      "patientId": "2025-125",
+      "patientName": "Scott Gilbert",
+      "mrNumber": "2025-125",
+      "admissionDate": "11/29/2025",
+      "primaryDiagnosis": "F10.20 Alcohol use disorder, Severe"
+    },
+    "ClinicalReclaim": {
+      "severityOfIllness": {
+        "usePatterns": "Progressed to 750ml tequila daily with beer and 1-3g cocaine binges; history of multi-day 'runs'.",
+        "functionalDeficits": "Recent termination from a 21-year career; finalized divorce; spent over $1M in active addiction; visitation with children restricted due to SoberLink failures.",
+        "medicalComplexity": "History of blackouts and significant trauma including a right drop foot and facial reconstruction from intoxicated falls."
+      },
+      "psychosocialReclaim": {
+        "traumaLens": "Unresolved shame/guilt from a high-speed vehicle accident while driving; feelings of worthlessness adopting his father's measurement of success (income).",
+        "relationalDistress": "Describes relationship with father and brother as highly judgmental and stressful; primary trigger for current low mood and anxiety."
+      },
+      "treatmentInterventionReclaim": {
+        "clinicalMilestones": "Successfully completed medically supervised Diazepam taper; initiated MAT (Acamprosate) for craving management.",
+        "ongoingRisk": "History of 5 previous treatment episodes since 2019 without sustained sobriety past 4.5 months; identifies 'airplane travel' as a high-risk trigger for cocaine use.",
+        "remainingBarriers": "Requires intensive cognitive restructuring (EMDR) for social and performance anxiety; lacks stable, non-toxic aftercare environment."
+      }
+    },
+    "UtilizationReview": {
+      "currentLevelOfCare": "Residential (LOC 3.5)",
+      "status": "Approved",
+      "lastReviewDate": "12/31/2025",
+      "nextReviewDate": "01/11/2026",
+      "clinicalRationale": "Continued residential care is medically necessary due to the high severity of the client's relapse cycle, significant history of failed lower levels of care, and the need to stabilize mood symptoms through increased Wellbutrin before transitioning to a community-based setting."
+    },
+    "DischargePerspective": {
+      "dischargeDisposition": "Return to Cornerstone SLE (San Francisco)",
+      "stepDownLevel": "Evening IOP (AMAR)",
+      "medicationPlan": "Stable on Wellbutrin XL 450mg, Acamprosate 333mg TID, and Gabapentin 100mg TID.",
+      "supportNetwork": "Sponsor, AA community, and reconciled connection with children."
+    }
+  }
+}

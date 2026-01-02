@@ -1,0 +1,188 @@
+{
+  "patientId": "137773",
+  "name": "Randall Clark Morrison",
+  "mrNumber": "2025-129",
+  "careType": "Detox / Residential",
+  "admitDate": "12/19/2025",
+  "rings": {
+    "compliance": 87,
+    "process": 68,
+    "data": 94
+  },
+  "categories": [
+    {
+      "id": "critical",
+      "title": "Critical Actions",
+      "severity": "good",
+      "items": [
+        {
+          "id": "CRIT-001",
+          "title": "Mandatory Consents",
+          "description": "All 11 sections of Treatment Consents were signed/initialed on admission day.",
+          "status": "compliant"
+        },
+        {
+          "id": "CRIT-002",
+          "title": "Medical Clearance",
+          "description": "Statement of medical clearance was signed on 12/19/2025.",
+          "status": "compliant"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "Process & Timeliness",
+      "severity": "warning",
+      "items": [
+        {
+          "id": "TIME-001",
+          "title": "Late BPS Completion",
+          "description": "The Biopsychosocial Assessment was completed on 12/22/2025, missing the 24-hour residential requirement.",
+          "status": "late"
+        },
+        {
+          "id": "TIME-002",
+          "title": "Case Management Assessment",
+          "description": "Continuing Care Consultation was delayed until 12/24/2025, exceeding the 72-hour threshold.",
+          "status": "late"
+        },
+        {
+          "id": "TIME-003",
+          "title": "Initial Family Contact",
+          "description": "Family orientation/contact was not documented within the first 72 hours of care.",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "title": "Data Hygiene",
+      "severity": "admin",
+      "items": [
+        {
+          "id": "DATA-001",
+          "title": "Incomplete Demographics",
+          "description": "Ethnicity and Preferred Pronouns are currently blank in the patient profile.",
+          "status": "empty"
+        },
+        {
+          "id": "DATA-002",
+          "title": "Missing ID Uploads",
+          "description": "Textual data exists for ID/Insurance but digital image uploads are missing from the chart view.",
+          "status": "upload"
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "title": "Compliant Systems",
+      "severity": "good",
+      "items": [
+        {
+          "id": "COMP-001",
+          "title": "ASAM Placement",
+          "description": "Detailed ASAM 1-6 dimension tracking accurately reflects transition from 3.7 to 3.5 levels of care.",
+          "status": "compliant"
+        },
+        {
+          "id": "COMP-002",
+          "title": "Clinical Documentation",
+          "description": "Individual and group notes are present every 7 days and reflect medical necessity.",
+          "status": "compliant"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Day 0: Admission (12/19)",
+      "events": [
+        {
+          "title": "Admission & H&P",
+          "description": "Initial intake, physical evaluation by NP, and start of Detox 1 taper protocol.",
+          "status": "success"
+        },
+        {
+          "title": "Initial Treatment Plan",
+          "description": "Treatment goals established to develop therapeutic rapport.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 3: Clinical (12/22)",
+      "events": [
+        {
+          "title": "Biopsychosocial Assessment",
+          "description": "Assessment completed by Sharon Johnson, LCSW.",
+          "status": "fail"
+        },
+        {
+          "title": "Fasting Labs",
+          "description": "Comprehensive metabolic panel and toxicology completed and reviewed.",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "label": "Day 7: Weekly (12/26)",
+      "events": [
+        {
+          "title": "Master Treatment Plan",
+          "description": "Full MTP containing SMART goals and outcome measures closed and signed.",
+          "status": "success"
+        },
+        {
+          "title": "Residential Transition",
+          "description": "Patient advanced from Detox status to Residential level of care.",
+          "status": "success"
+        }
+      ]
+    }
+  ],
+  "perspectives_reclaim": {
+    "patient_name": "Randall Clark Morrison",
+    "clinical_insights": {
+      "journey_summary": "Randall, a 64-year-old environmental lawyer, entered treatment after a significant relapse following one year of sobriety. His journey is defined by a dichotomy between high-level professional success and a self-described 'toxic' domestic environment. His relapse cycle was triggered by holiday stressors and a pattern of 'substance switching' (MDMA to Alcohol). Clinically, his journey moved from a 'hero/caretaker' role—where he sponsored six people in early sobriety while ignoring his own needs—to an emerging focus on radical self-preservation and boundary setting.",
+      "behavioral_patterns": "The client exhibited a 'walking on eggshells' mentality at home, leading to emotional suppression. In treatment, he began to process the resentment of being 'used' by his spouse and stepdaughter, eventually recognizing that his domestic situation was a primary barrier to long-term recovery."
+    },
+    "severity_of_illness": {
+      "diagnosis": "F10.20 Alcohol Use Disorder, Severe",
+      "withdrawal_presentation": "Presented in active withdrawal with a CIWA-Ar score of 12. Physical symptoms included bilateral hand tremors, diaphoresis (profuse sweating), and facial flushing.",
+      "psychiatric_severity": "BDI-II score of 20 (Moderate Depression) and BAI score of 29 (Moderate-to-High Anxiety). The client reported persistent feelings of shame, guilt, and 'caffeine headaches' related to high-stress levels.",
+      "occupational_risk": "High-severity work stress, reporting 70-80 hour work weeks which acted as a primary excuse for his substance use cycle."
+    },
+    "treatment_milestones": [
+      {
+        "milestone": "Detox Completion",
+        "date": "12/23/2025",
+        "description": "Successfully completed the 4-step Lorazepam (Ativan) taper protocol without seizures or significant complications."
+      },
+      {
+        "milestone": "ASAM Level Advance",
+        "date": "12/23/2025",
+        "description": "Transitioned from ASAM 3.7 (Medically Monitored Detox) to ASAM 3.5 (Residential Level of Care)."
+      },
+      {
+        "milestone": "Boundary Implementation",
+        "date": "12/28/2025",
+        "description": "Demonstrated clinical progress by maintaining healthy boundaries during a high-conflict visit with his spouse, choosing to stay in the living area for monitoring after a verbal disagreement."
+      },
+      {
+        "milestone": "MAT Initiation",
+        "date": "12/31/2025",
+        "description": "Started Acamprosate (333mg) as a proactive measure for relapse prevention upon discharge."
+      }
+    ],
+    "reclamation_narrative": {
+      "core_shift": "The client's 'reclamation' is centered on the decision to end an emotionally abusive marriage to prioritize his own life. He shifted from a state of 'hopelessness regarding the outcome' to actively researching Sober Living Environments (SLE) in San Francisco.",
+      "recovery_vision": "Randall has reclaimed his identity as a musician (guitar) and is integrating holistic recovery tools like sound baths and mindfulness into his daily routine, moving away from the 'work-to-death' cycle."
+    },
+    "patient_voice": {
+      "on_relapse": "I started up again, and I can't stop on my own. I need help.",
+      "on_home_life": "My marriage is pretty toxic... I am walking on eggshells at home.",
+      "on_work": "My work is not being affected; I work myself to the bone.",
+      "on_recovery": "I am ready to transition... I feel significantly more stable."
+    }
+  }
+}
