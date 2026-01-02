@@ -221,7 +221,6 @@ const App: React.FC = () => {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    onBlur={() => setTimeout(() => setIsSearching(false), 200)}
                     placeholder="Search record..."
                     className="bg-transparent border-none outline-none text-black dark:text-white text-lg w-full font-bold placeholder:text-black/30 dark:placeholder:text-white/20 ml-0"
                   />
